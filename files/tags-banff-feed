@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.theworldisnotflat.com" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>The World Is Not Flat (TwinF) - banff</title>
+ <link>http://www.theworldisnotflat.com/taxonomy/term/262/0</link>
+ <description></description>
+ <language>en-US</language>
+<item>
+ <title>Goodbye Canada - You Were Fun</title>
+ <link>http://www.theworldisnotflat.com/dispatch/2005/12/08/goodbye-canada-you-were-fun</link>
+ <description></description>
+ <comments>http://www.theworldisnotflat.com/dispatch/2005/12/08/goodbye-canada-you-were-fun#comment</comments>
+ <category domain="http://www.theworldisnotflat.com/general">General</category>
+ <category domain="http://www.theworldisnotflat.com/tags/banff">banff</category>
+ <category domain="http://www.theworldisnotflat.com/tags/blogsndogs">blogsndogs</category>
+ <category domain="http://www.theworldisnotflat.com/tags/canada">canada</category>
+ <pubDate>Thu, 08 Dec 2005 08:19:32 -0800</pubDate>
+ <dc:creator>leelefever</dc:creator>
+ <guid isPermaLink="false">483 at http://www.theworldisnotflat.com</guid>
+</item>
+</channel>
+</rss>

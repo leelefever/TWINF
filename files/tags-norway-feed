@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.theworldisnotflat.com" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>The World Is Not Flat (TwinF) - norway</title>
+ <link>http://www.theworldisnotflat.com/taxonomy/term/240/0</link>
+ <description></description>
+ <language>en-US</language>
+<item>
+ <title>Travel Strife: One Day Between Oslo and Copenhagen</title>
+ <link>http://www.theworldisnotflat.com/oslo_copenhagen</link>
+ <description></description>
+ <comments>http://www.theworldisnotflat.com/oslo_copenhagen#comment</comments>
+ <category domain="http://www.theworldisnotflat.com/general">General</category>
+ <category domain="http://www.theworldisnotflat.com/tags/dailylife">dailylife</category>
+ <category domain="http://www.theworldisnotflat.com/tags/denmark">denmark</category>
+ <category domain="http://www.theworldisnotflat.com/tags/norway">norway</category>
+ <category domain="http://www.theworldisnotflat.com/tags/oneday">oneday</category>
+ <category domain="http://www.theworldisnotflat.com/tags/transportation">transportation</category>
+ <category domain="http://www.theworldisnotflat.com/tags/video">video</category>
+ <pubDate>Thu, 19 Oct 2006 08:07:57 -0700</pubDate>
+ <dc:creator>leelefever</dc:creator>
+ <guid isPermaLink="false">1071 at http://www.theworldisnotflat.com</guid>
+</item>
+</channel>
+</rss>

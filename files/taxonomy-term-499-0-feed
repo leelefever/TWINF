@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.theworldisnotflat.com" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>The World Is Not Flat (TwinF) - trans-siberian</title>
+ <link>http://www.theworldisnotflat.com/taxonomy/term/499/0</link>
+ <description></description>
+ <language>en-US</language>
+<item>
+ <title>Mostly Mixed Moscow</title>
+ <link>http://www.theworldisnotflat.com/moscow</link>
+ <description></description>
+ <comments>http://www.theworldisnotflat.com/moscow#comment</comments>
+ <category domain="http://www.theworldisnotflat.com/general">General</category>
+ <category domain="http://www.theworldisnotflat.com/tags/city">city</category>
+ <category domain="http://www.theworldisnotflat.com/tags/friends">friends</category>
+ <category domain="http://www.theworldisnotflat.com/tags/lessonslearned">lessonslearned</category>
+ <category domain="http://www.theworldisnotflat.com/tags/moscow">moscow</category>
+ <category domain="http://www.theworldisnotflat.com/tags/russia">russia</category>
+ <category domain="http://www.theworldisnotflat.com/tags/trans-siberian">trans-siberian</category>
+ <pubDate>Fri, 29 Sep 2006 05:34:35 -0700</pubDate>
+ <dc:creator>leelefever</dc:creator>
+ <guid isPermaLink="false">1054 at http://www.theworldisnotflat.com</guid>
+</item>
+</channel>
+</rss>

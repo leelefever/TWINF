@@ -1,0 +1,327 @@
+
+
+
+
+
+
+@charset "UTF-8";
+/* CSS Document */
+/*
+
+* html ... is IE 6 specific
+*+html ... is IE 7 specific
+
+*/
+/*
+.login#steps LABEL.empty{
+	width:11.5em;
+}
+
+.login#steps LABEL.radio{
+	float:right;
+	width:18em;
+	verticle-align:middle;
+}
+.login#steps DIV.radio{
+width: 300px;
+
+}
+.login#steps INPUT.password{
+	float:right;
+}
+*/
+ol li {
+	margin-left: 32px;
+}
+
+#header {
+	float: left;
+}
+
+* html #content {height: 400px !important;}
+* html #pageContainer {background: transparent;}
+* html #top-page-shadow {background: transparent;}
+* html #page-shadow {background: transparent;}
+
+button {background-color: #f5ca49;}
+* html button {padding: 0px 8px;}
+* html .compare-to button span {
+	background-position: 2px left;
+}
+
+
+*+html button {	padding: 0 0 0 0;}
+*+html button span {	margin: 0 0 0 0; min-width: 50px; white-space: nowrap;}
+#account-module button span {min-width: 7em;}
+* html #account-module, * html #profile {
+	float: left;
+} 
+
+.searchForm .query {	display: inline;}
+* html #search-box {
+	margin:5px 0 0 165px;
+	float: none;
+}
+* html #search-box .text {margin-left: 90px;}
+* html #search-box .query {	background: transparent; margin: -3px 0 0 -76px;}
+* html #search-box .query input {
+	background: #fff;
+	border: 1px solid #555;
+	height: 24px;
+	line-height: 24px;
+}
+
+* html #right-column { 	margin: 0 0 0 0px;}
+
+.span-2 {width: 43%;}
+.span-3 {width: 25%;}
+
+* html .span-2 {
+	overflow:hidden; 
+	}
+
+*+html .forgot-link {width: 150px;}
+
+
+*+html .module {
+/*	display: block;  This causes tabs to be visible in IE before they are hidden */
+}
+
+* html .module {
+	border-bottom:none;	
+}
+
+* html #homepage-blog .module {height: 14.7em;}
+*+html #homepage-blog .module {min-height: 15em;}
+* html #homepage-category {width: 350px;}
+
+ol.hoturls li {
+	clear: both;
+	border: 1px solid #fff;
+}
+* html ol.hoturls .num {
+	background: #feed8d;
+  border: 2px solid #f5c46f;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+* html ol.hoturls .num.new {
+	background: #feed8d url(/web/20140104125101/http://pcache.alexa.com/images/hoturls/new2.gif) 18px left no-repeat;
+}
+ol.hoturls .listing { }
+* html ol.hoturls p.snippet {
+	margin-left: 3px;	
+}
+.hotsearches li {border: 1px solid #fff;}
+
+.offsite {display: inline-block;}
+* html .offsite {
+	background: url(/web/20140104125101/http://pcache.alexa.com/images/icons/external_link_gray2.gif) top right no-repeat;
+}
+.span-2 {width: 43%;}
+.span-3 {width: 31%;}
+
+.tw-tabnav {
+	padding-bottom:5px;
+}
+
+/* terrible hack to make sure ads show at the top */
+* html #formContainer {
+	
+}
+
+table#screenerOptions td {
+	padding: 3px 10px 5px 10px;
+}
+
+* html .tt:hover span.middle {background: url(/web/20140104125101/http://pcache.alexa.com/images/help/bubble_filler.gif) repeat bottom;}
+* html .tt:hover span.top {background: url(/web/20140104125101/http://pcache.alexa.com/images/help/bubble.gif) no-repeat top;}
+* html .tt:hover span.bottom {
+	background: url(/web/20140104125101/http://pcache.alexa.com/images/help/bubble.gif) no-repeat bottom;
+	  z-index:2400;
+}
+* html .tt.rightEnd:hover span.top {background: url(/web/20140104125101/http://pcache.alexa.com/images/help/bubble-right.gif) no-repeat top;}
+
+* html #demographics_div {
+	width:630px;
+}
+
+* html .demog_box {width:94%;}
+* html .demog_label {width: 100px;}
+* html .demog_percentages {width:250px;}
+
+.geo_percentages, .geo_rk {
+	padding: 2px 0;
+}
+
+* html #relatedlinks_div {
+	width: 660px;
+}
+
+* html #text-ad {
+	padding:0 0 0 0;
+	margin: 0 0 0 0;
+	width:640px
+}
+/*
+#search {width: 660px;}
+#results {
+	/ *margin-left: 170px;* /
+	width: 505px;
+}
+
+#search #results {
+	margin-left: 0px;
+	width: 505px;
+}
+*/
+* #search {width: 650px;}
+* #search #results {width: 650px;}
+
+li .keywords {
+	width:500px;
+}
+
+
+/*
+* html div.dp-summary-container {
+	float:right;
+	font-size:12px;
+	margin-top:0px;
+	margin-right:0px;
+}
+*/
+
+* html .site-listing ul.stats  {
+	width: 490px ;
+	overflow: visible;
+}
+
+#relatedlinks_div .site-listing, #search #results .site-listing {	
+	float: left;
+	margin: 0 0 10px 0;
+}
+#relatedlinks_div .faviconBox {
+	margin: 0 4px;
+}
+* html .site-listing .rank-graph img {
+	vertical-align: middle;
+}
+.site-listing ul.stats .aboutusText {
+	width: 460px;
+}
+
+.sitematch-bar ul.traffic-stats {
+	width: 660px;
+}
+* html .sitematch-bar h3 {
+	margin: 0 10px 0 20px;
+}
+* html .sitematch-bar ul.traffic-stats {
+	width: 630px;
+}
+
+div.description-container-1 {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+* html div.advertiser-meter-box {
+	font-size:.9em;	
+}
+
+
+* html #big-search-box .query {
+	margin-right:1px;	
+}
+
+* html #big-search-box button {
+	width:75px;
+	font-size:.9em;
+	border:none;
+}
+
+*+html #big-search-box button {
+	width:75px;
+	font-size:.9em;
+	border: 1px solid #c3a45b;
+}
+.big-search-box-container .example-text {
+	clear:both;
+	display:inline;
+	margin:10px 0 0 0;	
+}
+.gradientAd {
+	width: 100%;
+}
+
+
+div.dp-content-container-3 {
+	float:left;
+	
+}
+
+#kw_general td {
+		/*
+	border: 1px solid #f00;
+	//width: 30%;
+	//float: right;
+	//white-space: nowrap; 
+	//overflow: hidden; 
+	//text-overflow: ellipses; 
+	//-o-text-overflow: ellipses;
+*/	
+}
+
+/* 
+
+Hoturls main container div
+This is for IE6...
+
+*/
+* html div#hoturlsSearchBar {
+	clear:both;	
+}
+
+* html div#main-container {
+	width:95%;
+	margin-left:6px;
+}
+
+* html div#more-searches-container {
+	padding:5px 0;
+	clear:both;
+}
+* html .hotsearches {
+	float: left;
+	margin: 0 1% 0 0;
+	padding: 0;
+	width: 22%;
+}
+
+/* ...and the lists on the side need some help too... */
+
+* html div#otherTopics {
+	width:250px;
+}
+
+* html div#otherTopics ul {
+	margin:0 5px;
+	padding:0;	
+}
+* html div#otherTopics ol {
+	margin:0 10px;
+	padding:0;	
+}
+
+*+html div#contents p.tip {
+	padding-top:2px;
+}
+
+
+* html .no-side .success {
+	float: left;
+	width: 926px;
+	margin-bottom: 10px;
+}

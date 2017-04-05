@@ -1,0 +1,960 @@
+
+
+
+
+
+
+/*
+title: TWINF_RCS
+author: Raincity Studios (Mark Yuasa)
+URL: http://www.raincitystudios.com
+start date: 09/09/05
+last changed: 02/07/06
+*/
+
+
+/* -- Structure --
+______________________________________*/
+
+body {
+  color: #44464F;
+  background: white;
+  font-family: Verdana, Arial, Lucida, Helvetica, sans-serif;
+  font-size: 84%;
+  padding: 0;
+  margin: 0;
+}
+
+a, a:link { color: #9EA201; }
+a:visited { color: #A18F69; }
+a:hover, a:focus { color: #72839B; }
+a:active { color: #A18F69; }
+
+h1 { font-size: 1.3em; }
+h2 { font-size: 1.1em; }
+h3 { font-size: 1em; font-weight: bold;}
+h4, h5, h6 { font-size: 0.9em; font-weight: bold;}
+h1, h2, h3, h4, h5, h6 {
+}
+h3.form-title {
+  text-align: left;
+}
+p, .book .body {
+  padding: 0 0 0.5em 0;
+  margin: 0;
+  text-indent: 1.6em;
+  font-size: 1em;
+  line-height: 1.6em;
+}
+pre {
+  padding: 0.75em 1.5em;
+  font-size: 12px;
+}
+img { border: 0; }
+
+/* For TinyMCE */
+.blockquote {
+  margin: 0 auto;
+  padding: 10px 40px;
+  width: 400px;
+  display: block;
+  color: #9EA201;
+  font-family: baskerville, bodoni, "book antiqua", century, georgia, times, serif;
+  font-size: 16px;
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-quote_open.gif) no-repeat left top;
+  overflow: visible;
+}
+
+/* For TinyMCE */
+.cite {
+  float: right;
+  padding: 10px 40px 0 10px;
+  margin: -40px 40px 0 0;
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-quote_close.gif) no-repeat right top;
+/*  font-family: baskerville, bodoni, "book antiqua", century, georgia, times, serif; */
+  font-style: oblique;
+  color: #72839B;
+}
+
+code {
+  font-size: 1em;
+  font-family: Profont, 'lucida console', 'Courier New', Monaco, monospace;
+}
+
+
+
+/* ------ HEADER RULES -including Logo & Slogan ----------*/
+
+#header {
+  position: relative;
+  padding: 0;
+  margin: 20px 0 10px 0;
+}
+#header a:visited { color: #333; }
+#header a:hover { background: transparent; }
+#header img { 
+  margin: 0 0.75em 0 1em;
+  float: left;
+}
+
+#site-name {
+  font-size: 2.5em;
+  padding: 25px 0 0.2em 0;
+  margin: 0;
+  display: none;
+}
+#site-slogan {
+  color: #999;
+  display: inline;
+  font-weight: bold;
+  font-size : 1.2em;
+  padding: 0 0 0 1.2em;
+  margin: 0;
+}
+
+
+
+/*--------------- MAIN CONTENT Structural Styles -----------------
+________________________________________________________________*/
+
+#content {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+.container-inline {
+  margin: 0 0 1.6em 0;
+}
+.container-inline div {
+  display: inline;
+}
+
+#container {
+  width: 744px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*--------------- MAIN CONTENT PROPERTIES -----------------
+---*/
+
+
+.main-content .node .info, .main-content .node .terms { color: #999; }
+.main-content .sticky { border: 1px solid #eee; }
+
+.main-content {
+  margin: 10px 180px 0 0;
+  margin: 10px 0 0 0;
+  width: 570px;
+  padding: 0;  
+  overflow: hidden;
+  _overflow: visible;
+  word-wrap: break-word;
+}
+.main-content .node .content, .comment .content, .book .body {
+  line-height: 1.5em;
+}
+.main-content .node, .book {
+  margin: 0 1em 2em 1em;
+}
+.main-content .content-title {
+  font-size: 2em;
+  margin: 0 0 0.5em 0;
+}
+.main-content .node h2, .main-content h2 {
+  padding: 0;
+  margin: 0 0 0.25em 0;
+  font-size: 1.8em;
+  font-family: baskerville, bodoni, "book antiqua", century, georgia, times, serif;
+  font-weight: normal;
+}
+
+.main-content h2 font{
+ padding: 0;
+  margin: 0 0 0.25em 0;
+  font-size: 1.1em;
+  font-family: baskerville, bodoni, "book antiqua", century, georgia, times, serif;
+  font-weight: normal;
+}
+
+.main-content .node h2 a, .main-content h2 a {
+  color: #72839B;
+}
+
+.main-content .node .info {
+  padding: 0 0 0.2em 0;
+  margin: 0 0 10px 0;
+  font-size: 0.9em;
+}
+
+.main-content .node .links, .main-content .node .terms {
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.main-content .node .terms {
+  font-weight: normal;
+  text-align: center;
+  max-width: 400px;
+  margin: 5px auto 10px auto;
+}
+
+.main-content .node .links a:hover, .main-content .node .terms a:hover {
+  color: #72839B;
+}
+
+.main-content .sticky { 
+  padding: 0.5em;
+}
+.main-content .node .content {
+  padding: 0;
+  margin: 0;
+}
+.main-content .node {
+  padding: 0 0 30px 0;
+  margin: 0 0 30px 0;
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-post_bg.gif) no-repeat bottom;
+}
+.main-content .box {
+  border: 1px solid #eee;
+  margin-bottom: 0.5em;
+}  
+.main-content .box .content {
+  padding: 0.5em;
+}
+.main-content .box h2 {
+  padding: 0.5em;
+  margin: 0;
+  font-size: 1.2em;
+  text-align: left;
+}
+.main-content .box .content .form-item textarea {
+  width: auto;
+}
+.main-content li {
+  padding-bottom: 0.25em;
+}
+
+.main-content .node .content p {
+  text-indent: 0;
+}
+
+/* ---- SIDEBAR STRUCTURE -----------------------*/
+
+
+.sidebar .block a, .sidebar .block, .sidebar .block a:visited { color: #A18F69; }
+.sidebar .block h2 { color: #B2BED1; }
+
+.sidebar .block h3 { 
+  color: #B2BED1; 
+  font-family: 'garamond bold', 'garamond pro', garamond, 'trebuchet ms', myriad, Verdana, Arial, Lucida, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+.sidebar .block a:hover { color: #72839B; }
+.sidebar .block { color: #B2BED1; }
+.sidebar {
+  padding: 0;
+  width: 160px;
+  margin: 0 0 10px 0;
+}
+#sidebar-left, 
+#sidebar-right {
+  float: right;
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-sidebar_bg.jpg) no-repeat left top;
+  overflow: visible;
+  margin-top: 5px;
+}
+.sidebar .block {
+  margin: 0 0 25px 0;
+  padding: 0 0 5px 10px;
+}
+.sidebar .block h2 {
+  margin: 3px 0 0 0;
+  padding: 2px 0 5px 20px;
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-icon_walking.gif) no-repeat left top;
+}
+.sidebar .block h3 {
+  margin: 0 0 0.3em 0;
+}
+.sidebar .block li {
+  margin: 0.3em 0;
+}
+.sidebar .block img, .xml-icon {
+  text-align: center;
+  margin: 5px 0;
+}
+.sidebar .block-search input.form-text {
+  width: 100px;
+  padding: 1px;
+  margin-right: 5px;
+}
+.sidebar .block-search button.form-submit { 
+  width: 60px;
+  font-size: 12px;
+}
+
+/* ---- FOOTER STRUCTURE -----------------------*/
+
+#footer {
+  clear: both;
+  border-top: solid 1px #777;
+  margin: 10px 0 0 0;
+  padding: 0.5em 0;
+  font-family: "trebuchet ms", Verdana, Arial, Lucida, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #666;
+}
+#footer p {
+  text-indent: 0;
+  margin-bottom: 1em;
+}
+
+#footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+#footer img {
+  margin: 3px 0 -3px 0;
+  padding: 0;
+}
+
+/* ---- NAVIGATION ------------------------------------*/
+
+a { text-decoration: none; }
+#primary a { color: #fff; }
+
+#primary a.active, #primary a.active:hover { color: #E4F4EC; }
+
+#secondary a:visited, #secondary a.active, #secondary a.active:hover { color: #ccc; }
+
+#primary li {
+  padding: 0; 
+  margin: 0 0 0 -5px;
+  display: inline;
+  list-style-type: none;
+}
+#primary li a {
+  font-size: 11px;
+  margin: 0;
+  padding: 7px 9px 7px 9px;
+  _padding: 8px 9px 8px 9px;
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-primary_bg.gif) no-repeat right;
+  height: 27px !important;
+
+}
+#primary li a:hover {
+  color: #fff;
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-topnav_over.gif) no-repeat right !important;
+  _background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-topnav_over.gif) no-repeat right bottom !important;
+  height: 27px;
+
+}
+
+#secondary a:hover, #footer a:hover { color: #9EA201; }
+#secondary {
+  font-family: "trebuchet ms", Verdana, Arial, Lucida, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #666;
+  position: absolute;
+  top: 6px;
+  margin: 0 0 0 3px;
+  padding: 0;
+  z-index: 99;
+}
+
+#secondary li, #footer li {
+  margin: 0 5px 0 0; 
+  padding: 0;
+  display: inline;
+  list-style-type: none;
+}
+#secondary a, #footer a {
+  color: #B2BED1;
+  margin: 0;
+  padding: 0;
+}
+#top-nav {
+  padding: 0;
+  margin: 0;
+  height: 27px;
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-topnav_bg.gif) no-repeat right top;
+}
+
+#top-nav ul {
+  margin: 0;
+  padding: 5px 0 2px 10px;
+  _padding: 4px 0 2px 10px;
+  height: 27px;
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-starthere_bg.gif) no-repeat left top;
+}
+
+.block .more-link a { color: #9EA201; }
+.block .more-link a:hover { color: #72839B; }
+.more-link {
+  float: none;
+  text-align: right;
+  font-style: italic;
+}
+
+.links { text-align: center; }
+
+.links a.read-more:hover { color: #72839B; }
+.links a.read-more {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+/*-------------SEARCH PROPERTIES--------------*/
+
+#search {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -29px;
+/*  top: 214px; */
+  margin-left: 575px;
+/* -- To fix the IE6/Win margin doubling bug -- */
+  display: inline;
+}
+
+#search .form-text, #search .form-submit {
+  font-size: 10px;
+  background-color: white;
+}
+
+#search .form-text {
+  margin-right: 3px;
+  padding: 1px;
+}
+
+#search .form-submit {
+  padding: 0;
+}
+.breadcrumb {
+  padding: 0.5em 1em 1.5em 0;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+  height: 1%;
+}
+
+
+/*---------------- CALENDAR PROPERTIES ----------------*/
+
+.calendar td, .calendar th { border-color: #eee; }
+.calendar .day-normal { background: #fff; }
+.calendar .day-future { background: #fff; }
+.calendar .day-today { background: #333; color: #fff; }
+.calendar .day-today a { color: #fff; }
+.calendar .day-selected { background: #555; color: #fff; }
+.calendar .day-link { background: #ddd; color: #fff; }
+
+
+/* ---------------- COMMENT PROPERTIES --------------------*/
+
+.comment {
+  border-top: solid 1px #eee;
+  border-left: solid 1px #eee;
+
+  border-right: solid 1px #ccc;
+  border-bottom: solid 1px #ddd;
+}
+.comment {
+  padding: 1em;
+  margin: 1.5em 0;
+}
+.comment-new .new { color: #4d0; }
+.comment-new .new {
+  text-align: right;
+  font-size: 1.1em;
+  display: block;
+  padding-bottom: 0.5em;
+  width: 100%;
+}
+.comment .author, .comment .links { color: #9EA201; }
+.comment .author {
+  font-size: 0.9em;
+  padding: 0.1em 0 0.3em 0.75em;
+}
+.comment .links {
+  padding: 0.75em 0 0 0;
+  margin: 0;
+}
+.comment-folded {
+  padding: 0.5em;
+  margin: 1.5em 0;
+}
+.comment .content, .comment .content p {
+  padding: 0;
+  margin: 0;
+  line-height: 1.6em;
+  text-indent: 0;
+}
+.comment .title, .comment .title a.active {
+  color: #9BB2C4;
+}
+.comment .title {
+  font-family: baskerville, bodoni, "book antiqua", century, georgia, times, serif;
+  font-weight: normal;
+  font-size: 22px;
+  padding: 0;
+  margin-bottom: 0.5em;
+}
+
+/* ----------------- FORM PROPERTIES -----------------*/
+
+form {
+  padding: 0;
+  margin: 0;
+}
+.form-submit {
+  margin: 0;
+}
+.form-item {
+  margin: 3px 0;
+  padding: 0.3em 0;
+}
+form .form-item .title  {
+  margin-bottom: 0.5em;
+  padding: 0.3em 0;
+  text-align: left;
+}
+form .form-item .title  {
+  border: 0;
+  border-bottom: #ddd solid 1px;
+  color: #777;
+  background: transparent;
+}
+.form-radio, .form-checkbox {
+  background: transparent;
+  border: 0;
+}
+
+input.form-text {
+  margin: 0;
+  padding: 0 5px;
+  font-size: 12px;
+}
+input, textarea {
+  background: transparent;
+  color: inherit;
+  border: 1px solid #777;
+}
+input:focus, textarea:focus {
+  background: transparent;
+  border: 1px solid #03f;
+}
+input.form-text { border: solid 1px #ddd; }
+
+select {
+  background: #eee;
+  color: #000;
+  margin: 1px 5px;
+}
+
+button.form-submit {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  border: solid 1px #ddd;
+}
+
+
+/* ------------------- ACCESSIBILITY ---------------- */
+
+#accessibility { 
+  position: absolute; left: -9999px; 
+}
+
+
+/* ----------------- ITEM LIST ----------------------- */
+
+.item-list {
+  margin: 0.25em 0 0 0;
+  font-size: 0.9em;
+}
+.item-list ul {
+  list-style: none;
+  margin: 0 0 0.5em 0;
+  padding: 0;
+}
+.item-list ul li {
+  margin: 0 0 0.25em 0;
+  padding: 0 0 0.75em 0;
+  line-height: 1.8em;
+  list-style: none;
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-list-item_bg_b.gif) no-repeat 0 100%;
+}
+
+.sidebar .item-list ul li {
+  padding: 0 0 0.75em 1em;
+background-position: 10% 100%;
+}
+
+/* ----------------- MISC ----------------------- */
+
+.xml-icon, .sidebar img {
+  text-align: center;
+}
+
+#mission, #mission p, .minimission p {
+  text-indent: 0;
+}
+
+#mission, .minimission {
+  color: #72839B;
+  margin: 0 0 10px 0;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+#mission {
+  padding: 15px 20px 10px 20px !important;
+  width: auto;
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-mission_bg.gif) no-repeat bottom;
+  height: 165px;
+}
+
+.minimission { 
+  padding: 20px 40px 25px 40px;
+/*  text-align: center; */
+  width: auto;
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-minimission_b_bg.gif) no-repeat top;
+}
+
+
+.minimission img { 
+  margin: 2px 0 -2px 0;
+}
+
+.minidisp p, .miniexp p {
+  width: 80px;
+  height: 16px;
+  font-size: 1px;
+  color: white; 
+}
+
+.minidisp p {
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-btn_feed_dispatches.gif) no-repeat left bottom;
+}
+
+.miniexp p {
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-btn_feed_experiences.gif) no-repeat left bottom;
+}
+
+a.minidisp:hover, a.miniexp:hover {
+  background-position: right bottom;
+}
+
+.serif {
+  color: #9EA201;
+  font-family: baskerville, bodoni, "book antiqua", century, georgia, times, serif;
+  font-weight: normal;
+  font-size: 22px;
+  margin: 0 0 8px 0;
+}
+
+.minimission .serif {
+  font-size: 16px;
+}
+
+#mission .userpic { margin: 0 0 5px 5px !important; }
+
+#btn_mission {
+  width: 380px;
+  margin: 20px auto;
+}
+
+.floatright { float: right }
+
+#pager {
+  text-align: center;
+}
+#pager div {
+  padding: 0.5em;
+}
+
+#message {
+  border: 2px solid #6e2;
+}
+#message {
+  padding: 2em;
+  margin: 1em 2em;
+}
+li.leaf {
+  list-style-type: square;
+
+}
+div.picture { 
+  float: left;
+  margin: 0 1em 0.3em 0;
+}
+.center_img {
+  display: block; 
+  margin: 0 auto;
+}
+
+.breadcrumb, .main-content .content-title, .links a.read-more { color: #111; }
+
+.box { border: 1px solid #eee; }
+.box h2 { color: #999; }
+
+.marker, .error { color: #f00; }
+.ok { color: #080; }
+.path a, .path a:visited { color: #777; }
+
+/* fieldset { border: 1px solid #999; } */
+.tabs li .active, .tabs li .active:hover  {
+  color: #ccc;
+}
+pre {
+  background: #ddd;
+  border: 1px solid #aaa;
+}
+div.picture { border: 0; }
+
+#map-global-container, #map-local-container {
+  margin: 10px 0;
+  padding: 25px 20px 25px 20px;
+  width: 520px;
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-minimission_bg.gif) no-repeat bottom left !important;
+}
+
+#map-global-container {
+  margin-top: 30px;
+}
+
+#map-iframe {
+  margin: 0 -20px 0 -20px;
+  padding: 25px 270px 0 20px;
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-minimission_b_bg.gif) no-repeat top left !important;
+}
+
+#map-global-container #map-iframe {
+/*  margin-top: 10px; */
+  margin-top: 20px;
+}
+
+#map-local-container  #map-post-container {
+  position: relative;
+/*  display: inline;  */
+  margin: -200px 0 25px 300px;
+  width: 220px;
+  background: #fff;
+}
+
+
+#map-local-container  #map-post-title,
+#map-local-container  #map-posts {
+  border: 1px solid #B2BED1;
+  padding: 5px 10px;
+}
+
+#map-local-container  #map-posts {
+  margin: 0;
+}
+
+#map-local-container  #map-post-title {
+  border-bottom: 0;
+}
+
+#map-global-container{
+  _position:absolute;
+  _top: 200;
+/*  _top: 190; */
+  _width:530px;
+  _overflow:hidden;
+  _margin-top: 0;
+  _font-size:12px;
+}
+
+#map-local-container{
+  _width: 520px !important;
+  _margin: 0;
+  _overflow: hidden;
+}
+
+
+
+/* ---- SITE SPECIFIC ---
+_________________________________________________ */
+
+br.clear {
+/*  clear: both; */
+  clear: none;
+}
+
+#edit-edit_file {
+  width: 560px;
+}
+
+#content .main-content form #permissions, 
+#tracker table,
+form .form-item .textarea,
+#event .event-calendar table,
+#aggregator .news-item,
+#edit-site_mission,
+#edit-site_footer,
+#edit-comment {
+  width: 500px;
+}
+
+.comment .title, 
+.profile, 
+.book .nav, 
+.book .nav .links,
+.book .nav .titles,
+#aggregator .news-item,
+#aggregator .news-item .description,
+.comment .links,
+.mask,
+.mask .form-item label,
+.mask .form-item .form-required,
+.mask .form-item input,
+.mask .form-item #edit-mask,
+.mask .form-item .form-required {
+  clear: none;
+}
+
+#content .main-content tbody tr th,
+.main-content table tbody tr.watchdog-regular td,
+.main-content table tbody tr.watchdog-httpd td,
+.main-content table tbody tr.watchdog-special td,
+.main-content table tbody tr.watchdog-error td,
+.main-content table tbody tr.watchdog-access-denied td,
+.main-content table tbody tr.watchdog-cron td,
+.main-content table tbody tr.watchdog-aggregator td,
+.main-content table tbody tr.watchdog-page-not-found td,
+.main-content table tbody tr.watchdog-content td,
+.main-content table tbody tr.watchdog-user td {
+  font-size: 9px;
+  max-width: 80px;
+  padding: 0 5px 0 0;
+}
+
+#btn_home {
+  position: absolute;
+  top: 85px;
+  margin-left: 45px;
+}
+
+.starthere {
+  float: left;
+  position: relative; 
+  font-size: 11px;
+  height: 27px;
+  margin: 0; 
+}
+
+.starthere p {
+/*  color: #fff; */
+  padding: 4px 15px 7px 0;
+  background: transparent url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-starthere_right.gif) no-repeat right top;
+}
+
+.node .content fieldset dl.location dd { display: inline; margin-right: -15px; padding-right: -15px;}
+
+.btn_register, .btn_add { 
+  padding-bottom: 26px;
+  margin-bottom: 10px;
+  width: 140px;
+  overflow: hidden;
+  font-size: 1px;
+  color: #fff;
+}
+
+#mission .btn_register, #mission .btn_add { 
+  margin-bottom: 10px !important;
+}
+
+.btn_add { 
+  background: url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-btn_add.gif) no-repeat left bottom;
+}
+
+.btn_register { 
+  background: url(images/sites-theworldisnotflat.com-files-theme_editor-twinf_rcs-btn_register.gif) no-repeat left bottom;
+}
+
+a:hover .btn_register { 
+  background-position: right bottom;
+}
+
+a:hover .btn_add { 
+  background-position: right bottom;
+}
+
+
+/* For link hot area expanding too wide */
+.reg {
+  width: 140px;
+  height: 26px;
+  display: block;
+  position: absolute;
+}
+
+/* For Safari link colour */
+a:link.reg, a:visited.reg, a:hover.reg, a:active.reg {
+  color: #fff;
+}
+
+#block-block-11 h2 {
+  display: none;
+}
+
+#block-block-11 .visible {
+  display: block;
+}
+
+#greetings {
+  padding: 0 0 5px 0;
+  font-family: "trebuchet ms", Verdana, Arial, Lucida, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #666;
+  margin: -9px 0 0 5px;
+}
+
+/* -- drupal.css override 
+----------------------------------------------- */
+
+.node-form .form-text {
+  width: 95%;
+}
+
+.node-form .standard {
+  display: block;
+  clear: none; 
+}
+.node-form textarea {
+  display: block;
+  width: 95%;
+}
+.node-form fieldset {
+  display: inline;
+}
+.node-form .admin .form-item .title {
+  margin-top: 0;
+
+}
+.node-form .admin .authored .form-item {
+  margin-bottom: 1.1em;
+}
+.node-form .admin .authored .form-text  {
+  width: auto;
+}
+.node-form .admin .authored, .node-form .admin .options, .node-form 
+
+.admin .extra {
+  float: none;
+  margin-right: .75em;
+  margin-bottom: 1em;
+  display: inline;
+
+}
+
+.node-form .attachments fieldset {
+  float: none;
+  display: block;
+} 

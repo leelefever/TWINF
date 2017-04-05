@@ -1,0 +1,718 @@
+
+
+
+
+
+
+.icon-inline{
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.rank-row{
+	margin-bottom: 18px;
+}
+
+/***** Search box *************************************************************/
+.siteInfoPage .siteinfo-search .siteinfo-search-label{
+	background: none;
+	padding-left: 0;
+	font-weight: normal;
+}
+.siteInfoPage .searchForm *{
+	vertical-align: middle;
+}
+.siteInfoPage .searchForm .btn-search{
+	border: 0;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+/***** Page Column ************************************************************/
+.siteInfoPage #threecolwrap{
+	font-size: 12px; /* overwrite body 1em */
+}
+.siteInfoPage #threecolwrap #content{
+  color: #333;
+  background-color: #ececec;
+  padding-top: 0;
+}
+.siteInfoPage #threecolwrap #content-inner{
+	padding: 0;
+}
+.siteInfoPage .bdr-top{
+	border-top: 1px solid #ddd;
+}
+.siteInfoPage .bdr-right{
+	border-right: 1px solid #ddd;
+}
+.siteInfoPage .col-bdr.bdr-right{
+	float: left;
+	width: 100%;
+}
+.siteInfoPage .bdr-btm{
+	border-bottom: 1px solid #ddd;
+}
+
+/***** WWW layout.css Overwrite *********************************************************/
+.siteInfoPage #threecolwrap a{
+	text-decoration: none;
+}
+.siteInfoPage h2, .siteInfoPage h3, .siteInfoPage h4{
+	color: #333;
+}
+.siteInfoPage h3{
+	margin: 0;
+}
+.siteInfoPage h4{
+	border: 0;
+}
+.siteInfoPage .change-wrapper{
+	font-size: 11px;
+	margin: 0;
+	padding: 3px 5px 3px 15px;
+	color: #fff;
+	-moz-border-radius: 3px;
+  border-radius: 3px; 
+}
+.siteInfoPage .change-down{
+	background: #c32f16 url("/web/20140110123153/http://pcache.alexa.com/pro/images/arrow-down.png") no-repeat 5px 50%;
+}
+.siteInfoPage .change-up{
+	background: #66b142 url("/web/20140110123153/http://pcache.alexa.com/pro/images/arrow-up.png") no-repeat 5px 50%;
+}
+.siteInfoPage .no-change{
+	background: #878787 none;
+	padding-left: 5px;
+}
+
+
+/***** Site logo and name section *********************************************/
+.siteInfoPage .siteinfo-site-summary{
+	margin: 25px;
+}
+.siteInfoPage .siteinfo-site-summary .logo{
+	float: left;
+	height: 75px;
+	margin: 0 10px 0 0;
+}
+.siteinfo-site-summary .breadcrumbs{
+	font-size: 11px;
+	color: #333;
+}
+.siteinfo-site-summary .breadcrumbs a{
+	text-decoration: none;
+}
+.siteInfoPage .site-short-desc{
+	display: block;
+	margin-bottom: 10px;
+}
+
+/* Site comparison stuff */
+.site-compare-btn{
+	margin-top: 20px;
+}
+.comparisons-edit-form .compare-radio-btns input,
+.comparisons-edit-form .compare-radio-btns label{
+	vertical-align: middle;
+}
+.comparisons-edit-form input[type="text"]{
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding-right: 22px;
+}
+/* note cannot combine these code because browsers don't understand it */
+.comparisons-edit-form ::-webkit-input-placeholder{
+	font-style: italic;
+}
+.comparisons-edit-form ::-moz-placeholder{
+	font-style: italic;
+}
+.comparisons-edit-form :-moz-placeholder{
+	font-style: italic;
+}
+.comparisons-edit-form input:-ms-input-placeholder{
+	font-style: italic;
+	color: #aaa;
+}
+.comparisons-edit-form input::-ms-clear{
+	display: none;
+}
+.comparisons-edit-form .form-deletable{
+	position: relative;
+	text-align: right;
+}
+.comparisons-edit-form .form-deletable .js-delete-input{
+	position: absolute;
+	display: none;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+}
+.chrome .comparisons-edit-form .form-deletable .js-delete-input{
+	top: 7px;
+}
+.comparisons-edit-form .form-deletable .js-delete-input.active{
+	display: block;
+	background: transparent url('/web/20140110123153/http://pcache.alexa.com/images/icons/sprite-clear-x.png') no-repeat 0 0;
+	width: 16px;
+	height: 16px;
+}
+.comparisons-edit-form .form-deletable .js-delete-input.active:hover{
+	background-position: -18px 0;
+}
+.comparisons-edit-form .css-select ul.scrollable{
+	overflow-y: scroll;
+}
+.comparisons-edit-form .css-select-wrapper ul.scrollable{
+	height: 290px;
+}
+#compare-login-dialog .dialog-content{
+	background: transparent url('/web/20140110123153/http://pcache.alexa.com/images/siteinfo/dialog-comparison-img.png') no-repeat 200px 85px;
+}
+	
+
+/***** Panel section **********************************************************/
+.siteInfoPage .panel-row{
+	margin: 0 10px 15px;
+}
+.siteInfoPage .box-2{
+	display: inline-block;
+	min-width: 300px;
+	line-height: 30px;
+}
+.siteInfoPage .panel-wrapper h4{
+	margin: 0;
+}
+.siteInfoPage .panel-wrapper .sitemetrics-col{
+	display: block;
+	padding-left: 30px;
+}
+.siteInfoPage .col-11c{
+	width: 47%;
+	float: left;
+}
+.siteInfoPage .pre-1c{
+	padding-left: 2%;
+	float: right;
+}
+.siteInfoPage .app-1c{
+	padding-right: 2%;
+}
+.siteInfoPage .app-13c{
+	padding-right: 52%;
+}
+
+
+/***** Not enough data ********************************************************/
+	
+.siteInfoPage .note-no-data .panel-wrapper{
+	padding: 15px;
+	border: 1px solid #fbb460;
+	border-radius: 3px;
+	background: #fae3c2 none;
+	box-shadow: none;
+	display: table;
+}
+.siteInfoPage .note-no-data .row{
+	display: table-row;
+}
+.siteInfoPage .note-no-data .col-l,
+.siteInfoPage .note-no-data .col-r{
+	display: table-cell;
+}
+.siteInfoPage .note-no-data .col-l{
+	width: 84%;
+	vertical-align: top;
+}
+.siteInfoPage .note-no-data .col-l .col-pad{
+	padding-left: 45px;
+  	background: transparent url("/web/20140110123153/http://pcache.alexa.com/images/siteinfo/no-data-alert.png") no-repeat 0 50%;
+  	display: block;
+}
+.siteInfoPage .note-no-data .col-r{
+	width: 16%;
+	vertical-align: middle;
+	text-align: right;
+}
+	
+/***** Site tool section ******************************************************/
+.siteInfoPage .free-tools{
+	padding: 0;
+}
+.siteInfoPage .free-tools .h2 {
+	font-size: 14px;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	background-color: #e6e6e6;
+}
+.siteInfoPage .free-tools .sub-site-tools{
+	margin: 0 10px;
+}
+.siteInfoPage .free-tools .h3,
+.siteInfoPage .free-tools .sub-site-tools ul,
+.siteInfoPage .free-tools .sub-site-tools li{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 2;
+}
+
+/***** Dialog *****************************************************************/
+
+.siteInfoPage .ui-widget-content a{
+	color: #039;
+	text-decoration: none;
+}
+.siteInfoPage .ui-widget-content a:hover{
+	color: #c60;
+}
+.siteInfoPage .ui-widget-content a:visited{
+	color: #936;
+}
+
+/***** Certified Your Site Information Dialog on site info page ***************/
+#certify-now-dialog .certify-img {
+	background: url('/web/20140110123153/http://pcache.alexa.com/pro/images/image-Certify-popup.jpg') no-repeat 0 -10px transparent;
+	width: 600px;
+	height: 300px;
+}
+#certify-now-dialog .btn-link {
+	position: relative;
+	top: 235px;
+	left: 255px;
+}
+
+/***** Add logo Dialog ********************************************************/
+
+.dialog-alexa2.dialog-add-logo .ui-dialog-titlebar{
+	background: transparent url(/web/20140110123153/http://pcache.alexa.com/images/siteinfo/icon-enhanced.gif) no-repeat 10px 50%;
+	padding: 15px 15px 15px 50px;
+}
+#add-logo-dialog .desc{
+	margin: 20px 0;
+}
+#add-logo-dialog .col-pad{
+	padding-left: 25px;
+	border-left: 1px solid #dbdbdb;
+	height: 110px;
+}
+#add-logo-dialog{
+	overflow: hidden;
+}
+
+/***** Keyword & Linksin Promo Dialog *****************************************/
+
+/* Split content dialog css */
+.ui-dialog.dialog-split .ui-dialog-titlebar{
+	display: none;
+}
+.ui-dialog.dialog-split .dialog-custom-close-wrapper{
+	position: relative;
+	float: right;
+}
+.ui-dialog.dialog-split .dialog-custom-close-btn{
+	position: absolute;
+	text-decoration: none;
+	right: 9px;
+	top: 14px;
+}
+.ui-dialog.dialog-split .ui-dialog-content{
+	padding: 0;
+	overflow: hidden;
+}
+
+/* Keyword & Linksin dialog css */
+.siteinfo-promo-dialog h2, .siteinfo-promo-dialog h3{
+	margin: 0;
+	padding: 0;
+}
+.siteinfo-promo-dialog h2{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.siteinfo-promo-dialog h3{
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.siteinfo-promo-dialog .dialog-col1 .col-pad{
+	padding: 10px 10px 20px;
+}
+.siteinfo-promo-dialog .dialog-col2 .col-pad{
+	padding: 10px 20px 20px;
+}
+.siteinfo-promo-dialog .col-l,
+.siteinfo-promo-dialog .col-r{
+	float: left;
+}
+.siteinfo-promo-dialog .col-l{
+	width: 90px;
+}
+.siteinfo-promo-dialog .col-l label{
+	padding: 8px 12px 6px 6px;
+	display: inline-block;
+}
+.siteinfo-promo-dialog .col-r{
+}
+.siteinfo-promo-dialog .forgot-pwd{
+	display: block;
+	margin: 10px 0;
+}
+.siteinfo-promo-dialog .facebook-button{
+	border-top: 1px solid #ddd;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+.siteinfo-promo-dialog li{
+	margin-bottom: 5px;
+}
+#keyword-promo-dialog .dialog-content{
+	background: transparent url(/web/20140110123153/http://pcache.alexa.com/images/siteinfo/dialog-kw-image.gif) no-repeat 40px 80px;
+}
+#keyword-promo-dialog .tool-features{
+	margin: 40px 0;
+}
+#linksin-promo-dialog .tool-features{
+	margin: 0 0 120px; 
+}
+#linksin-promo-dialog .dialog-content{
+	background: transparent url(/web/20140110123153/http://pcache.alexa.com/images/siteinfo/dialog-backlink-img.gif) no-repeat 135px 115px;
+}
+
+/***** Traffic ****************************************************************/
+.siteInfoPage .spark-bars{
+  	display: none;
+}
+.siteInfoPage .panel-wrapper.no-padding .traffic-rankpromo-content{
+	padding: 12px 20px;
+}
+
+/***** Audience Demographics **************************************************/
+.pybar-bar,
+.pybar-label span,
+.pybar-bar span{
+	display: inline-block;
+}
+.pybar-label, .pybar-bars, .pybar-bar{
+	float: left;
+}
+.pybar-bar,
+.pybar-label span{
+	padding: 2px 0;
+}
+.pybar-label span{
+	padding-right: 10px;
+}
+.pybar-l{
+	border-right: 1px solid #676767;
+}
+.pybar-bg{
+	width: 50px;
+	float: left;
+	background-color: #eee;
+}
+.pybar-l .pybar-bg{
+	background-color: #cb3737;
+}
+.pybar-l .pybar-bg span{
+	background-color: #eee;
+}
+.pybar-r .pybar-bg span{
+	background-color: #9c9;
+}
+.pybar-row, .pybar-header{
+	margin-bottom: 10px;
+}
+.pybar-help{
+	position: relative;
+}
+.pybar-help .tt{
+	position: absolute;
+	display: inline-block;
+	width: 100px;
+	left: -100px;
+}
+.pybar-help .tt img{
+	visibility: hidden;
+}
+.pybar-help .tt:hover span.tooltip{
+	top: -10px;
+	left: 65px;
+}
+.siteInfoPage .demo-col1{
+	width: 200px;
+}
+.siteInfoPage .demo-col3{
+	width: 260px;
+	float: right;
+}
+.siteInfoPage .demo-age .pybar-label,
+.siteInfoPage .demo-gender .pybar-label,
+.siteInfoPage .demo-location .pybar-label,
+.siteInfoPage .demo-children .pybar-label,
+.siteInfoPage .demo-ethnicity .pybar-label{
+	width: 25%;
+}
+.siteInfoPage .demo-age .pybar-label-right,
+.siteInfoPage .demo-gender .pybar-label-right,
+.siteInfoPage .demo-location .pybar-label-right,
+.siteInfoPage .demo-children .pybar-label-right,
+.siteInfoPage .demo-ethnicity .pybar-label-right{
+	width: 110px;
+}
+.siteInfoPage .demo-age .pybar-bars,
+.siteInfoPage .demo-gender .pybar-bars,
+.siteInfoPage .demo-location .pybar-bars,
+.siteInfoPage .demo-children .pybar-bars,
+.siteInfoPage .demo-ethnicity .pybar-bars{
+	width: 74%
+}
+.siteInfoPage .demo-age .pybar-bars-right,
+.siteInfoPage .demo-gender .pybar-bars-right,
+.siteInfoPage .demo-location .pybar-bars-right,
+.siteInfoPage .demo-children .pybar-bars-right,
+.siteInfoPage .demo-ethnicity .pybar-bars-right{
+	width: 140px;
+}
+.siteInfoPage .demo-age .pybar-header,
+.siteInfoPage .demo-gender .pybar-header,
+.siteInfoPage .demo-location .pybar-header,
+.siteInfoPage .demo-children .pybar-header,
+.siteInfoPage .demo-ethnicity .pybar-header
+{
+	padding-left: 25%;
+}
+.siteInfoPage .demo-age .pybar-header-right,
+.siteInfoPage .demo-gender .pybar-header-right,
+.siteInfoPage .demo-location .pybar-header-right,
+.siteInfoPage .demo-children .pybar-header-right,
+.siteInfoPage .demo-ethnicity .pybar-header-right
+{
+	padding-left: 39%;
+}
+.siteInfoPage .demo-education .pybar-label,
+.siteInfoPage .demo-income .pybar-label{
+	width: 46%;	
+}
+.siteInfoPage .demo-education .pybar-bars,
+.siteInfoPage .demo-income .pybar-bars{
+	width: 54%;	
+}
+.siteInfoPage .demo-education .pybar-header,
+.siteInfoPage .demo-income .pybar-header{
+	padding-left: 46%;
+}
+.siteInfoPage .demo-education,
+.siteInfoPage .demo-gender,
+.siteInfoPage .demo-location,
+.siteInfoPage .demo-age,
+.siteInfoPage .demo-income{
+	margin-bottom: 20px;
+}
+
+/***** Visitors by Country ****************************************************/
+.siteInfoPage .panel-wrapper h4.head-bdr-btm,
+.siteInfoPage .section-promo .panel-wrapper h4{
+	border-bottom: 2px solid #676767;
+	padding-bottom: 8px;
+	margin-bottom: 10px;
+}
+
+/***** Linksin ****************************************************************/
+.siteInfoPage .table-linksin .linksin-site .word-wrap{
+	width: 200px;
+}
+.siteInfoPage .table-linksin .linksin-page .word-wrap{
+	width: 320px;
+}
+.siteInfoPage .table-linksin .linksin-rank{
+	padding: 5px 20px;
+}
+
+/***** Linksin Pagination */
+.siteInfoPage .linksin-paging .alexa-pagination{
+	margin-top: 20px;
+}
+.siteInfoPage .linksin-paging .alexa-pagination *{
+	display: inline-block;
+}
+.siteInfoPage .linksin-paging .alexa-pagination span,
+.siteInfoPage .linksin-paging .alexa-pagination a{
+	padding: 5px 10px;
+  	border: 1px solid #ddd;
+  	margin: 0px 4px;
+}
+.siteInfoPage .linksin-paging .alexa-pagination a.next,
+.siteInfoPage .linksin-paging .alexa-pagination a.previous,
+.siteInfoPage .linksin-paging .alexa-pagination span.previous-disabled, 
+.siteInfoPage .linksin-paging .alexa-pagination span.next-disabled{
+  background: transparent url("/web/20140110123153/http://pcache.alexa.com/images/icons/paginate-arrows.png") no-repeat 50% 50%;
+  border: none;
+  width: 6px;
+  height: 9px;
+  padding: 0;
+  margin: 0 6px;
+  vertical-align: middle;
+}
+.siteInfoPage .linksin-paging .alexa-pagination a.next{
+	background-position: -16px 0px;
+}
+.siteInfoPage .linksin-paging .alexa-pagination a.previous{
+	background-position: 0px 0px;
+}
+.siteInfoPage .linksin-paging .alexa-pagination span.previous-disabled{
+	background-position: -8px 0px;
+	cursor: not-allowed;
+}
+.siteInfoPage .linksin-paging .alexa-pagination span.next-disabled{
+	background-position: -24px 0;
+	cursor: not-allowed;
+}
+
+.siteInfoPage .linksin-paging .alexa-pagination a.next,
+.siteInfoPage .linksin-paging .alexa-pagination span.next-disabled{
+	padding-right: 0;
+	margin-right: 0;
+}
+.siteInfoPage .linksin-paging .alexa-pagination span.pagination-current{
+	background: #0199d5 none;
+  	color: #fff;
+  	font-weight: normal;
+}
+.siteInfoPage .linksin-paging .alexa-pagination a.pagination-page{
+	background-color: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee');
+    background-image: -moz-linear-gradient(top, #fff, #eee);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee));
+    background-image: -webkit-linear-gradient(top, #fff, #eee);
+	background-image: linear-gradient(to bottom, #ffffff, #eeeeee);
+}
+.siteInfoPage .linksin-paging .alexa-pagination span.dividor{
+	border: none;
+	padding: 0;
+}
+
+/***** Keyword ****************************************************************/
+
+/* GEO DATA FORMATTING */
+.geo_percentages, .geo_rk {
+	clear: both;
+	padding: 9px 0;
+	list-style-type: none;
+}
+.geo_bar {
+	background: #eee;
+	float: left;
+	margin-left: 10px;
+	width: 100px;}
+.geo_stat {
+	background: #28be10;
+	float: left;
+}
+.geo_number {
+	float: left;
+	text-align: right;
+	width: 4em;
+}
+.geo_country {
+	float: left;
+	margin: -3px 0 0 10px;
+	height: 1em;
+}
+
+/***** Related to *************************************************************/
+.siteInfoPage .text-gt{
+	font-size: 11px;
+	padding: 0 2px;
+}
+
+/***** Where visitors go ******************************************************/
+.siteInfoPage .section-subdomains .word-wrap{
+	width: 550px;
+}
+
+/***** Promo block ************************************************************/
+.siteInfoPage .section-promo .col-8{
+	width: 210px;
+	padding-right: 34px;
+	line-height: normal;
+}
+.siteInfoPage .section-promo .col-8.last{
+	padding-right: 0;
+}
+.siteInfoPage .section-promo .panel-content p{
+	font-size: 11px;
+	min-height: 80px;
+}
+.siteInfoPage .section-promo .promo-1 p{
+	padding-left: 105px;
+	background: transparent url("/web/20140110123153/http://pcache.alexa.com/images/siteinfo/promo-audit.gif") no-repeat 0 0;
+}
+.siteInfoPage .section-promo .promo-2 p{
+	padding-left: 78px;
+	background: transparent url("/web/20140110123153/http://pcache.alexa.com/images/siteinfo/promo-certifiedmetrics.gif") no-repeat -15px -5px;
+}
+.siteInfoPage .section-promo .promo-3 p{
+	padding-left: 85px;
+	background: transparent url("/web/20140110123153/http://pcache.alexa.com/images/siteinfo/promo-uptime.gif") no-repeat -10px -5px;
+}
+
+/***** Contact site ***********************************************************/
+.siteInfoPage .section-contactsite h3{
+	margin-bottom: 10px;
+}
+.siteInfoPage .section-contactsite .contact-email{
+	margin-top: 20px;
+}
+
+/***** Site Load Speed ********************************************************/
+
+.VeryFast {
+	background: url('/web/20140110123153/http://pcache.alexa.com/images/icons/hourglass-veryfast.gif') top left no-repeat;
+	color: #007236;
+	padding: 2px 0 2px 14px;
+}
+.Fast {
+	background: url('/web/20140110123153/http://pcache.alexa.com/images/icons/hourglass-fast.gif') top left no-repeat;
+	color:  #617128;
+	padding: 2px 0 2px 14px;
+}
+.Average {
+	background: url('/web/20140110123153/http://pcache.alexa.com/images/icons/hourglass-average.gif') top left no-repeat;
+	color: #827b00;
+	padding: 2px 0 2px 14px;
+}
+.Slow {
+	background: url('/web/20140110123153/http://pcache.alexa.com/images/icons/hourglass-slow.gif') top left no-repeat;
+	color: #a3620a;
+	padding: 2px 0 2px 14px;
+}
+.VerySlow {
+	background: url('/web/20140110123153/http://pcache.alexa.com/images/icons/hourglass-veryslow.gif') top left no-repeat;
+	color: #9e0b0f;
+	padding: 2px 0 2px 14px;
+}
+.siteInfoPage #traffic-rank-content .metricsUrl a{
+  color: #333;
+}
+.siteInfoPage #traffic-rank-content .metricsUrl a:hover{
+  color: #c60; 
+}
+.siteInfoPage .topkeywordellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 172px;
+  word-wrap: normal;
+}
+.siteInfoPage .ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+.siteInfoPage ul.popup_list
+{
+  list-style-type:disc;
+  margin-left: 30px;
+}

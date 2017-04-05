@@ -1,0 +1,434 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+
+
+<script type="text/javascript" src="/static/js/analytics.js"></script>
+<script type="text/javascript">archive_analytics.values.server_name="wwwb-app13.us.archive.org";archive_analytics.values.server_ms=157;</script>
+<link type="text/css" rel="stylesheet" href="/static/css/banner-styles.css"/>
+
+
+  <title>fujitsu_p7000d.jpg | The World Is Not Flat (TwinF)</title>
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css" media="all">@import "/web/20081202054231cs_/http://www.theworldisnotflat.com/misc/drupal.css";</style>
+<script type="text/javascript"><!--
+  var BASE_URL = "/";
+--></script>
+
+<script type="text/javascript" src="/web/20081202054231js_/http://www.theworldisnotflat.com/misc/drupal.js"></script>
+<script type="text/javascript" src="/web/20081202054231js_/http://www.theworldisnotflat.com/sites/theworldisnotflat.com/modules/img_assist/img_assist.js"></script>
+<link rel="shortcut icon" href="/web/20081202054231im_/http://www.theworldisnotflat.com/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/favicon.ico" type="image/x-icon" />
+  <style type="text/css" media="all">@import "/web/20081202054231cs_/http://www.theworldisnotflat.com/sites/theworldisnotflat.com/modules/img_assist/img_assist.css";</style><style type="text/css" media="all">@import "/web/20081202054231cs_/http://www.theworldisnotflat.com/sites/theworldisnotflat.com/modules/location/location.css";</style><style type="text/css" media="all">@import "/web/20081202054231cs_/http://www.theworldisnotflat.com/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/style.css";</style><style type="text/css" media="all">@import "/web/20081202054231cs_/http://www.theworldisnotflat.com/sites/theworldisnotflat.com/modules/tagadelic/tagadelic.css";</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60446936-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head><body >
+
+
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="/static/js/disclaim-element.js" ></script>
+<script type="text/javascript" src="/static/js/graph-calc.js" ></script>
+<script type="text/javascript" src="/static/jflot/jquery.min.js" ></script>
+<script type="text/javascript">//<![CDATA[
+var __wm = (function(){
+var wbPrefix = "/web/";
+var wbCurrentUrl = "http://www.theworldisnotflat.com/image/fujitsu-p7000d-jpg";
+
+var firstYear = 1996;
+var imgWidth = 500,imgHeight = 27;
+var yearImgWidth = 25,monthImgWidth = 2;
+var displayDay = "2";
+var displayMonth = "Dec";
+var displayYear = "2008";
+var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+var $D=document,$=function(n){return document.getElementById(n)};
+var trackerVal,curYear = -1,curMonth = -1;
+var yearTracker,monthTracker;
+function showTrackers(val) {
+  if (val===trackerVal) return;
+  var $ipp=$("wm-ipp");
+  var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+  if (val) {
+    $ipp.className="hi";
+  } else {
+    $ipp.className="";
+    $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+  }
+  yearTracker.style.display=val?"inline":"none";
+  monthTracker.style.display=val?"inline":"none";
+  trackerVal = val;
+}
+function getElementX2(obj) {
+  var $e=jQuery(obj);
+  return (typeof $e=="undefined"||typeof $e.offset=="undefined")?
+    getElementX(obj):Math.round($e.offset().left);
+}
+function trackMouseMove(event,element) {
+  var eventX = getEventX(event);
+  var elementX = getElementX2(element);
+  var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+  var monthOff = xOff % yearImgWidth;
+
+  var year = Math.floor(xOff / yearImgWidth);
+  var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+  // 1 extra border pixel at the left edge of the year:
+  var month = (year * 12) + monthOfYear;
+  var day = monthOff % 2==1?15:1;
+  var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+    zeroPad(day,2) + "000000";
+
+  $("displayYearEl").innerHTML=year+firstYear;
+  $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+  // looks too jarring when it changes..
+  //$("displayDayEl").innerHTML=zeroPad(day,2);
+  var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+  $("wm-graph-anchor").href=url;
+
+  if(curYear != year) {
+    var yrOff = year * yearImgWidth;
+    yearTracker.style.left = yrOff + "px";
+    curYear = year;
+  }
+  if(curMonth != month) {
+    var mtOff = year + (month * monthImgWidth) + 1;
+    monthTracker.style.left = mtOff + "px";
+    curMonth = month;
+  }
+}
+function hideToolbar() {
+  $("wm-ipp").style.display="none";
+}
+function bootstrap() {
+  var $spk=$("wm-ipp-sparkline");
+  yearTracker=$D.createElement('div');
+  yearTracker.className='yt';
+  with(yearTracker.style){
+    display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+  }
+  monthTracker=$D.createElement('div');
+  monthTracker.className='mt';
+  with(monthTracker.style){
+    display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+  }
+  $spk.appendChild(yearTracker);
+  $spk.appendChild(monthTracker);
+
+  var $ipp=$("wm-ipp");
+  $ipp&&disclaimElement($ipp);
+}
+return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+})();//]]>
+</script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  min-width:800px !important;
+}
+</style>
+<div id="wm-ipp" lang="en" style="display:none;">
+
+<div style="position:fixed;left:0;top:0;width:100%!important">
+<div id="wm-ipp-inside">
+   <table style="width:100%;"><tbody><tr>
+   <td id="wm-logo">
+       <a href="/web/" title="Wayback Machine home page"><img src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0" /></a>
+   </td>
+   <td class="c">
+       <table style="margin:0 auto;"><tbody><tr>
+       <td class="u" colspan="2">
+       <span id="wm_tb_options" style="display:block;"></span>
+       </td>
+       <td class="n" rowspan="2">
+           <table><tbody>
+           <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+           <tr class="m">
+           	<td class="b" nowrap="nowrap">
+		
+		    <a href="/web/20071020094254/http://www.theworldisnotflat.com/image/fujitsu-p7000d-jpg" title="20 Oct 2007">OCT</a>
+		
+		</td>
+		<td class="c" id="displayMonthEl" title="You are here: 5:42:31 Dec 2, 2008">DEC</td>
+		<td class="f" nowrap="nowrap">
+		
+		    Jan
+		
+                </td>
+	    </tr>
+           <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+           <tr class="d">
+               <td class="b" nowrap="nowrap">
+               
+                   <a href="/web/20071020094254/http://www.theworldisnotflat.com/image/fujitsu-p7000d-jpg" title="9:42:54 Oct 20, 2007"><img src="/static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a>
+               
+               </td>
+               <td class="c" id="displayDayEl" style="width:34px;font-size:24px;" title="You are here: 5:42:31 Dec 2, 2008">2</td>
+	       <td class="f" nowrap="nowrap">
+               
+                   <img src="/static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0"/>
+               
+	       </td>
+           </tr>
+           <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+           <tr class="y">
+	       <td class="b" nowrap="nowrap">
+               
+                   <a href="/web/20071020094254/http://www.theworldisnotflat.com/image/fujitsu-p7000d-jpg" title="20 Oct 2007"><strong>2007</strong></a>
+               
+               </td>
+               <td class="c" id="displayYearEl" title="You are here: 5:42:31 Dec 2, 2008">2008</td>
+	       <td class="f" nowrap="nowrap">
+               
+                   2009
+               
+	       </td>
+           </tr>
+           </tbody></table>
+       </td>
+       </tr>
+       <tr>
+       <td class="s">
+           <a class="t" href="/web/20081202054231*/http://www.theworldisnotflat.com/image/fujitsu-p7000d-jpg" title="See a list of every capture for this URL">4 captures</a>
+           <div class="r" title="Timespan for captures of this URL">28 May 06 - 2 Dec 08</div>
+       </td>
+       <td class="k">
+       <a href="" id="wm-graph-anchor">
+       <div id="wm-ipp-sparkline" title="Explore captures for this URL">
+	 <img id="sparklineImgId" alt="sparklines"
+		 onmouseover="__wm.st(1)" onmouseout="__wm.st(0)"
+		 onmousemove="__wm.mv(event,this)"
+		 width="500"
+		 height="27"
+		 border="0"
+		 src="/web/jsp/graph.jsp?graphdata=500_27_1996:-1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:000000000000_2000:-1:000000000000_2001:-1:000000000000_2002:-1:000000000000_2003:-1:000000000000_2004:-1:000000000000_2005:-1:000000000000_2006:-1:000010000000_2007:-1:000001000100_2008:11:000000000001_2009:-1:000000000000_2010:-1:000000000000_2011:-1:000000000000_2012:-1:000000000000_2013:-1:000000000000_2014:-1:000000000000_2015:-1:000000000000" />
+       </div>
+       </a>
+       </td>
+       </tr></tbody></table>
+   </td>
+   <td class="r">
+       <a href="#close" onclick="__wm.h();return false;" style="background-image:url(/static/images/toolbar/wm_tb_close.png);top:5px;" title="Close the toolbar">Close</a>
+       <a href="http://faq.web.archive.org/" style="background-image:url(/static/images/toolbar/wm_tb_help.png);bottom:5px;" title="Get some help using the Wayback Machine">Help</a>
+   </td>
+   </tr></tbody></table>
+</div>
+</div>
+</div>
+<script type="text/javascript">__wm.bt();</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+
+<div id="accessibility" >
+ <a href="#content-both">Skip to Content</a>
+</div>
+
+<div id="container">
+ 
+<div id="header">
+
+<img src="/files/includes/images/header.png" style="float: none;margin: 0;" />
+
+
+</div>
+
+
+<ul id="secondary">
+   <li><a href="/web/20081202054231/http://www.theworldisnotflat.com/">Home</a></li>
+           <li><a href="/web/20081202054231/http://www.theworldisnotflat.com/user/login">Login</a></li>
+           <li><a href="contact">Contact Us</a></li>
+         </ul>
+
+<!-- Verbose greeting
+
+<div id="greetings">
+</div> 
+-->
+
+<div id="greetings">
+</div><!-- end greetings -->
+
+<div id="top-nav">
+	    <ul id="primary">
+          <li><a href="/web/20081202054231/http://www.theworldisnotflat.com/abouttwinf" title="">About This Site</a></li>
+          <li><a href="/web/20081202054231/http://www.theworldisnotflat.com/blog" title="">All Member Experiences</a></li>
+          <li><a href="/web/20081202054231/http://www.theworldisnotflat.com/#gonode" title="">All Our Dispatches</a></li>
+          <li><a href="/web/20081202054231/http://www.theworldisnotflat.com/maps" title="">Global Map</a></li>
+        </ul>
+  
+
+ <div id="search">
+ 
+
+
+</div>
+
+
+</div>
+
+<div id="content">	
+					<div class="sidebar" id="sidebar-right">
+  <div class="block block-block" id="block-block-31">
+  <h2>Interested?</h2>
+  <div class="content"><script type="text/javascript"><!--
+google_ad_client = "pub-4005123769456150";
+google_ad_width = 160;
+google_ad_height = 600;
+google_ad_format = "160x600_as";
+google_ad_type = "text_image";
+google_ad_channel = "";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "0000FF";
+google_color_text = "000000";
+google_color_url = "008000";
+//-->
+</script>
+<script type="text/javascript"
+  src="/web/20081202054231js_/http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><br class="clear" /></div>
+</div>
+<div class="block block-block" id="block-block-27">
+  <h2></h2>
+  <div class="content"><script type="text/javascript"><!--
+google_ad_client = "pub-4005123769456150";
+google_ad_width = 160;
+google_ad_height = 600;
+google_ad_format = "160x600_as";
+google_ad_type = "text_image";
+google_ad_channel = "";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "0000FF";
+google_color_text = "000000";
+google_color_url = "008000";
+//-->
+</script>
+<script type="text/javascript"
+  src="/web/20081202054231js_/http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><br class="clear" /></div>
+</div>
+<div class="block block-statistics" id="block-statistics-0">
+  <h2>Popular content</h2>
+  <div class="content"><div class="item-list"><h3>Today's:</h3><ul><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/tattoo">So, I Got a Tattoo</a></li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/koi_tattoo">Why a Koi Tattoo?</a></li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/holland">Sex and Drugs in Liberal Holland</a></li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/laundry">Five Steps for Doing Laundry While Backpacking</a></li></ul></div><br /><div class="item-list"><h3>All time:</h3><ul><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/koi_tattoo">Why a Koi Tattoo?</a></li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/tattoo">So, I Got a Tattoo</a></li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/abouttwinf">About This Site</a></li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/holland">Sex and Drugs in Liberal Holland</a></li></ul></div><br /><div class="item-list"><h3>Last viewed:</h3><ul><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/oslo_copenhagen">Travel Strife: One Day Between Oslo and Copenhagen</a></li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/dispatch/2006/01/01/dog-video-cam-via-skype-2-0">Dog Video Cam via Skype 2.0</a></li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/favorite-photos">A Collection of Our Favorite Photos from 2006</a></li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/dalat">Da Lat, Vietnam: A Strange Sort of Tourism</a></li></ul></div></div>
+</div>
+<div class="block block-comment" id="block-comment-0">
+  <h2>Recent comments</h2>
+  <div class="content"><div class="item-list"><ul><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/dispatch/2005/12/04/two-button-toilet#comment-34199">Sully</a><br />6 days 9 hours ago</li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/blog/sachilefever/london-hostel-wake-up-near-paddington-station#comment-34198">Last summer after my</a><br />1 week 3 days ago</li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/blog/amyo/brisbane-citycat-ferries#comment-34192">Heh. Isn&#039;t it interesting how we take things for granted?</a><br />3 weeks 13 hours ago</li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/dispatch/2006/04/11/baan-krating-jungle-resort-nai-han-beach-near-phuket-thailand#comment-34181">Re:</a><br />6 weeks 1 day ago</li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/dispatch/2005/10/07/take-a-polaroid#comment-34177">Also safer!</a><br />6 weeks 6 days ago</li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/holland#comment-34159">Amterdam</a><br />16 weeks 6 days ago</li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/favorite-photos#comment-34158">I would give anyting to see</a><br />16 weeks 6 days ago</li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/dispatch/2006/04/02/tech-report-mobile-phone-networks-in-india-and-sri-lanka#comment-34156">Mobile Phones</a><br />17 weeks 3 days ago</li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/dispatch/2006/04/02/tech-report-mobile-phone-networks-in-india-and-sri-lanka#comment-34154">Mobile Phones</a><br />18 weeks 6 days ago</li><li><a href="/web/20081202054231/http://www.theworldisnotflat.com/dispatch/2006/04/02/tech-report-mobile-phone-networks-in-india-and-sri-lanka#comment-34152">Mobile technology</a><br />18 weeks 6 days ago</li></ul></div></div>
+</div>
+<div class="block block-block" id="block-block-25">
+  <h2>Other Travel Blogs</h2>
+  <div class="content"><p><a href="/web/20081202054231/http://www.theradblog.com/">Jon Rawlinson</a></p> <p><a href="/web/20081202054231/http://blog.stonegrooves.net/">Josh Berman</a></p> <p><a href="/web/20081202054231/http://gadling.com/">Gadling</a></p> <p><a href="/web/20081202054231/http://www.geekytraveller.com/">Geeky Traveller</a></p> <p><a href="/web/20081202054231/http://yourinnervagabond.com/blog/">AJ &amp; Andrew</a></p> <p><a href="/web/20081202054231/http://constanttrek.typepad.com/constanttrek/">Constant Trek</a></p> <p><a href="/web/20081202054231/http://bigkatamari.blogspot.com/">Nadav and Anya</a></p> <p><a href="/web/20081202054231/http://www.oldworldwandering.com/">Old World Wandering</a></p><p><a href="/web/20081202054231/http://www.mofo-records.com/earthbound/">Maitland Waters</a>&nbsp;</p> 
+<p><a href="/web/20081202054231/http://www.ksrtw.com/">Kathy & Sharon</a>&nbsp;</p> 
+<p><a href="/web/20081202054231/http://www.vagabonding.com/">Vagabonding</a>&nbsp;</p> <br class="clear" /></div>
+</div>
+<div class="block block-block" id="block-block-24">
+  <h2>Insurance Sponsor</h2>
+  <div class="content"><a href="/web/20081202054231/http://www.worldnomads.com/index.aspx?affiliate=wrldflt"><img src="/web/20081202054231im_/http://www.worldnomads.com/files/advertisements/125x125_bridge.jpg" border=0></a> 
+We believe travel insurance is a necessity. <a href="/web/20081202054231/http://www.worldnomads.com/index.aspx?affiliate=wrldflt">World Nomads</a> has been kind enough to sponsor this for our trip.<br class="clear" /></div>
+</div>
+<div class="block block-user" id="block-user-1">
+  <h2>Navigation</h2>
+  <div class="content">
+<ul class="menu">
+<li class="leaf"><a href="/web/20081202054231/http://www.theworldisnotflat.com/keywords" title="">browse by keyword</a></li>
+<li class="leaf"><a href="/web/20081202054231/http://www.theworldisnotflat.com/taxonomy/vocabulary">view</a></li>
+<li class="leaf"><a href="/web/20081202054231/http://www.theworldisnotflat.com/tracker">recent posts</a></li>
+<li class="collapsed"><a href="/web/20081202054231/http://www.theworldisnotflat.com/aggregator">news aggregator</a></li>
+
+</ul>
+</div>
+</div>
+<div class="block block-block" id="block-block-23">
+  <h2>Creative Commons</h2>
+  <div class="content"><!--Creative Commons License--><a rel="license" href="/web/20081202054231/http://creativecommons.org/licenses/by-nc/2.5/"><img alt="Creative Commons License" border="0" src="/web/20081202054231im_/http://creativecommons.org/images/public/somerights20.png"/></a><br/>.<!--/Creative Commons License--><!-- <rdf:RDF xmlns="/web/20081202054231/http://web.resource.org/cc/" xmlns:dc="/web/20081202054231/http://purl.org/dc/elements/1.1/" xmlns:rdf="/web/20081202054231/http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+		<Work rdf:about="">
+			<license rdf:resource="/web/20081202054231/http://creativecommons.org/licenses/by-nc/2.5/" />
+		</Work>
+		<License rdf:about="/web/20081202054231/http://creativecommons.org/licenses/by-nc/2.5/"><permits rdf:resource="/web/20081202054231/http://web.resource.org/cc/Reproduction"/><permits rdf:resource="/web/20081202054231/http://web.resource.org/cc/Distribution"/><requires rdf:resource="/web/20081202054231/http://web.resource.org/cc/Notice"/><requires rdf:resource="/web/20081202054231/http://web.resource.org/cc/Attribution"/><prohibits rdf:resource="/web/20081202054231/http://web.resource.org/cc/CommercialUse"/><permits rdf:resource="/web/20081202054231/http://web.resource.org/cc/DerivativeWorks"/></License></rdf:RDF> --><br class="clear" /></div>
+</div>
+  </div>
+			
+		
+				<div class="main-content" id="content-right">
+<!-- commented out by RE Sept 14, 2005				<div class="breadcrumb"><a href="/node">Home</a></div>			
+-->
+
+									<h2 class="content-title">fujitsu_p7000d.jpg</h2>
+												
+								
+								
+								
+				<!-- start main content -->
+				<div id="gonode">
+
+
+				</div>
+				<!-- begin content -->
+
+<div class="node">
+
+    <div class="info"></div>
+
+    <div class="content">
+
+  <img src="/web/20081202054231im_/http://www.theworldisnotflat.com/system/files/images/fujitsu_p7000d.jpg" alt="fujitsu_p7000d.jpg" title="fujitsu_p7000d.jpg"  class="image preview" width="220" height="177" /><br class="clear" /><table border="0" cellspacing="0" cellpadding="0" class="voting"><tr><td>
+
+
+
+<embed src="/web/20081202054231oe_/http://www.theworldisnotflat.com/sites/theworldisnotflat.com/modules/voting/voting.swf?content_type=node&amp;content_id=179&amp;base_url=/&amp;mode=show_avg_first&amp;bgcolor=0xffffff&amp;star_on_fill=0x9EA201&amp;star_on_border=0x#AFAC5&amp;star_off_fill=0xcccccc&amp;star_off_border=0x333333&amp;txt_color=0x000000&amp;txt_vote1=Nothing New&amp;txt_vote2=OK&amp;txt_vote3=Nice&amp;txt_vote4=Interesting&amp;txt_vote5=Awesome!&amp;txt_login=Please+login+or+register+to+vote.&amp;txt_before_vote=Rate+It...&amp;txt_after_vote=You+Rated+It%3A" quality="high" width="210" height="35" name="voting" align=""
+   type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+
+</td></tr></table>
+
+
+  </div>
+
+        <div class="links">
+
+<a href="/web/20081202054231/http://www.theworldisnotflat.com/image/fujitsu-p7000d-jpg?size=thumbnail" class="active">thumbnail</a></div>
+
+</div>
+
+<!-- end content -->				<!-- end main content -->
+				</div><!-- mainContent -->	
+<div id="footer">
+      <p class="floatright">Site design by <a href="/web/20081202054231/http://raincitystudios.com/"><img src="/web/20081202054231im_/http://www.theworldisnotflat.com/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rcsmicro.gif" alt="Raincity Studios" /></a>
+</p>
+        <ul>
+          <li><a href="/web/20081202054231/http://www.theworldisnotflat.com/contact" title="">Contact Us</a></li>
+          <li><a href="/web/20081202054231/http://www.theworldisnotflat.com/" title="">Home</a></li>
+          <li><a href="/web/20081202054231/http://www.theworldisnotflat.com/user" title="">My Account/Login</a></li>
+          <li><a href="/web/20081202054231/http://www.theworldisnotflat.com/terms" title="">Terms/Guidelines</a></li>
+        <li><script src="/web/20081202054231js_/http://mapstats.blogflux.com/button.js.php?id=3636" language="JavaScript" type="text/javascript"></script>
+<noscript><a href="/web/20081202054231/http://mapstats.blogflux.com/3636.html"><img src="/web/20081202054231im_/http://mapstats.blogflux.com/button.php?id=3636" alt="Blog Flux MapStats: Stats and Counter for The World Is Not Flat" border="0" /></a></noscript></li>
+    </ul>
+  </div><!-- footer -->	
+</div><!-- content -->
+ new
+ </div><!-- Container -->
+
+  </body>
+</html>
+
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 5:42:31 Dec 2, 2008 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:45:12 Mar 1, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->

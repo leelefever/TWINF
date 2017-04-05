@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://theworldisnotflat.com" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>The World Is Not Flat (TwinF) - srilanka</title>
+ <link>http://theworldisnotflat.com/taxonomy/term/361/0</link>
+ <description></description>
+ <language>en-US</language>
+<item>
+ <title>Achieving Foreign-ness</title>
+ <link>http://theworldisnotflat.com/achieving-foreignness</link>
+ <description></description>
+ <comments>http://theworldisnotflat.com/achieving-foreignness#comment</comments>
+ <category domain="http://theworldisnotflat.com/general">General</category>
+ <category domain="http://theworldisnotflat.com/tags/australia">australia</category>
+ <category domain="http://theworldisnotflat.com/tags/reflection">reflection</category>
+ <category domain="http://theworldisnotflat.com/tags/singapore">Singapore</category>
+ <category domain="http://theworldisnotflat.com/tags/srilanka">srilanka</category>
+ <pubDate>Thu, 28 Dec 2006 17:35:01 -0800</pubDate>
+ <dc:creator>leelefever</dc:creator>
+ <guid isPermaLink="false">1148 at http://theworldisnotflat.com</guid>
+</item>
+</channel>
+</rss>

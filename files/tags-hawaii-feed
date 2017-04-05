@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.theworldisnotflat.com" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>The World Is Not Flat (TwinF) - hawaii</title>
+ <link>http://www.theworldisnotflat.com/taxonomy/term/214/0</link>
+ <description></description>
+ <language>en-US</language>
+<item>
+ <title>Feel the Power</title>
+ <link>http://www.theworldisnotflat.com/dispatch/2006/01/05/feel-the-power</link>
+ <description></description>
+ <comments>http://www.theworldisnotflat.com/dispatch/2006/01/05/feel-the-power#comment</comments>
+ <category domain="http://www.theworldisnotflat.com/general">General</category>
+ <category domain="http://www.theworldisnotflat.com/tags/beach">beach</category>
+ <category domain="http://www.theworldisnotflat.com/tags/hawaii">hawaii</category>
+ <category domain="http://www.theworldisnotflat.com/tags/surf">surf</category>
+ <category domain="http://www.theworldisnotflat.com/tags/water">water</category>
+ <pubDate>Thu, 05 Jan 2006 19:42:35 -0800</pubDate>
+ <dc:creator>leelefever</dc:creator>
+ <guid isPermaLink="false">740 at http://www.theworldisnotflat.com</guid>
+</item>
+</channel>
+</rss>

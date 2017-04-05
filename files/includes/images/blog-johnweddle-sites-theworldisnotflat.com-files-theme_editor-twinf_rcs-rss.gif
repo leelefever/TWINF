@@ -1,0 +1,630 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+
+
+<script type="text/javascript" src="/static/js/analytics.js"></script>
+<script type="text/javascript">archive_analytics.values.server_name="wwwb-app15.us.archive.org";archive_analytics.values.server_ms=906;</script>
+<link type="text/css" rel="stylesheet" href="/static/css/banner-styles.css"/>
+
+
+  <title>All Member Experiences | The World Is Not Flat (TwinF)</title>
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css" media="all">@import "/web/20101225055648cs_/http://theworldisnotflat.com/misc/drupal.css";</style>
+<script type="text/javascript"><!--
+  var BASE_URL = "/";
+--></script>
+
+<script type="text/javascript" src="/web/20101225055648js_/http://theworldisnotflat.com/misc/drupal.js"></script>
+<script type="text/javascript" src="/web/20101225055648js_/http://theworldisnotflat.com/sites/theworldisnotflat.com/modules/img_assist/img_assist.js"></script>
+<link rel="alternate" type="application/rss+xml" title="RSS - blogs" href="/blog/feed" />
+
+<link rel="shortcut icon" href="/web/20101225055648im_/http://theworldisnotflat.com/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/favicon.ico" type="image/x-icon" />
+  <style type="text/css" media="all">@import "/web/20101225055648cs_/http://theworldisnotflat.com/sites/theworldisnotflat.com/modules/img_assist/img_assist.css";</style><style type="text/css" media="all">@import "/web/20101225055648cs_/http://theworldisnotflat.com/sites/theworldisnotflat.com/modules/location/location.css";</style><style type="text/css" media="all">@import "/web/20101225055648cs_/http://theworldisnotflat.com/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/style.css";</style><style type="text/css" media="all">@import "/web/20101225055648cs_/http://theworldisnotflat.com/sites/theworldisnotflat.com/modules/tagadelic/tagadelic.css";</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60446936-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head><body >
+
+
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="/static/js/disclaim-element.js" ></script>
+<script type="text/javascript" src="/static/js/graph-calc.js" ></script>
+<script type="text/javascript" src="/static/jflot/jquery.min.js" ></script>
+<script type="text/javascript">//<![CDATA[
+var __wm = (function(){
+var wbPrefix = "/web/";
+var wbCurrentUrl = "http://theworldisnotflat.com/blog/johnweddle/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif";
+
+var firstYear = 1996;
+var imgWidth = 500,imgHeight = 27;
+var yearImgWidth = 25,monthImgWidth = 2;
+var displayDay = "25";
+var displayMonth = "Dec";
+var displayYear = "2010";
+var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+var $D=document,$=function(n){return document.getElementById(n)};
+var trackerVal,curYear = -1,curMonth = -1;
+var yearTracker,monthTracker;
+function showTrackers(val) {
+  if (val===trackerVal) return;
+  var $ipp=$("wm-ipp");
+  var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+  if (val) {
+    $ipp.className="hi";
+  } else {
+    $ipp.className="";
+    $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+  }
+  yearTracker.style.display=val?"inline":"none";
+  monthTracker.style.display=val?"inline":"none";
+  trackerVal = val;
+}
+function getElementX2(obj) {
+  var $e=jQuery(obj);
+  return (typeof $e=="undefined"||typeof $e.offset=="undefined")?
+    getElementX(obj):Math.round($e.offset().left);
+}
+function trackMouseMove(event,element) {
+  var eventX = getEventX(event);
+  var elementX = getElementX2(element);
+  var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+  var monthOff = xOff % yearImgWidth;
+
+  var year = Math.floor(xOff / yearImgWidth);
+  var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+  // 1 extra border pixel at the left edge of the year:
+  var month = (year * 12) + monthOfYear;
+  var day = monthOff % 2==1?15:1;
+  var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+    zeroPad(day,2) + "000000";
+
+  $("displayYearEl").innerHTML=year+firstYear;
+  $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+  // looks too jarring when it changes..
+  //$("displayDayEl").innerHTML=zeroPad(day,2);
+  var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+  $("wm-graph-anchor").href=url;
+
+  if(curYear != year) {
+    var yrOff = year * yearImgWidth;
+    yearTracker.style.left = yrOff + "px";
+    curYear = year;
+  }
+  if(curMonth != month) {
+    var mtOff = year + (month * monthImgWidth) + 1;
+    monthTracker.style.left = mtOff + "px";
+    curMonth = month;
+  }
+}
+function hideToolbar() {
+  $("wm-ipp").style.display="none";
+}
+function bootstrap() {
+  var $spk=$("wm-ipp-sparkline");
+  yearTracker=$D.createElement('div');
+  yearTracker.className='yt';
+  with(yearTracker.style){
+    display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+  }
+  monthTracker=$D.createElement('div');
+  monthTracker.className='mt';
+  with(monthTracker.style){
+    display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+  }
+  $spk.appendChild(yearTracker);
+  $spk.appendChild(monthTracker);
+
+  var $ipp=$("wm-ipp");
+  $ipp&&disclaimElement($ipp);
+}
+return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+})();//]]>
+</script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  min-width:800px !important;
+}
+</style>
+<div id="wm-ipp" lang="en" style="display:none;">
+
+<div style="position:fixed;left:0;top:0;width:100%!important">
+<div id="wm-ipp-inside">
+   <table style="width:100%;"><tbody><tr>
+   <td id="wm-logo">
+       <a href="/web/" title="Wayback Machine home page"><img src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0" /></a>
+   </td>
+   <td class="c">
+       <table style="margin:0 auto;"><tbody><tr>
+       <td class="u" colspan="2">
+       <span id="wm_tb_options" style="display:block;"></span>
+       </td>
+       <td class="n" rowspan="2">
+           <table><tbody>
+           <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+           <tr class="m">
+           	<td class="b" nowrap="nowrap">
+		
+		    <a href="/web/20071015055752/http://www.theworldisnotflat.com/blog/johnweddle/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif" title="15 Oct 2007">OCT</a>
+		
+		</td>
+		<td class="c" id="displayMonthEl" title="You are here: 5:56:48 Dec 25, 2010">DEC</td>
+		<td class="f" nowrap="nowrap">
+		
+		    Jan
+		
+                </td>
+	    </tr>
+           <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+           <tr class="d">
+               <td class="b" nowrap="nowrap">
+               
+                   <a href="/web/20071015055752/http://www.theworldisnotflat.com/blog/johnweddle/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif" title="5:57:52 Oct 15, 2007"><img src="/static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a>
+               
+               </td>
+               <td class="c" id="displayDayEl" style="width:34px;font-size:24px;" title="You are here: 5:56:48 Dec 25, 2010">25</td>
+	       <td class="f" nowrap="nowrap">
+               
+                   <img src="/static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0"/>
+               
+	       </td>
+           </tr>
+           <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+           <tr class="y">
+	       <td class="b" nowrap="nowrap">
+               
+                   <a href="/web/20071015055752/http://www.theworldisnotflat.com/blog/johnweddle/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif" title="15 Oct 2007"><strong>2007</strong></a>
+               
+               </td>
+               <td class="c" id="displayYearEl" title="You are here: 5:56:48 Dec 25, 2010">2010</td>
+	       <td class="f" nowrap="nowrap">
+               
+                   2011
+               
+	       </td>
+           </tr>
+           </tbody></table>
+       </td>
+       </tr>
+       <tr>
+       <td class="s">
+           <a class="t" href="/web/20101225055648*/http://theworldisnotflat.com/blog/johnweddle/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif" title="See a list of every capture for this URL">2 captures</a>
+           <div class="r" title="Timespan for captures of this URL">15 Oct 07 - 25 Dec 10</div>
+       </td>
+       <td class="k">
+       <a href="" id="wm-graph-anchor">
+       <div id="wm-ipp-sparkline" title="Explore captures for this URL">
+	 <img id="sparklineImgId" alt="sparklines"
+		 onmouseover="__wm.st(1)" onmouseout="__wm.st(0)"
+		 onmousemove="__wm.mv(event,this)"
+		 width="500"
+		 height="27"
+		 border="0"
+		 src="/web/jsp/graph.jsp?graphdata=500_27_1996:-1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:000000000000_2000:-1:000000000000_2001:-1:000000000000_2002:-1:000000000000_2003:-1:000000000000_2004:-1:000000000000_2005:-1:000000000000_2006:-1:000000000000_2007:-1:000000000100_2008:-1:000000000000_2009:-1:000000000000_2010:11:000000000001_2011:-1:000000000000_2012:-1:000000000000_2013:-1:000000000000_2014:-1:000000000000_2015:-1:000000000000" />
+       </div>
+       </a>
+       </td>
+       </tr></tbody></table>
+   </td>
+   <td class="r">
+       <a href="#close" onclick="__wm.h();return false;" style="background-image:url(/static/images/toolbar/wm_tb_close.png);top:5px;" title="Close the toolbar">Close</a>
+       <a href="http://faq.web.archive.org/" style="background-image:url(/static/images/toolbar/wm_tb_help.png);bottom:5px;" title="Get some help using the Wayback Machine">Help</a>
+   </td>
+   </tr></tbody></table>
+</div>
+</div>
+</div>
+<script type="text/javascript">__wm.bt();</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+
+<div id="accessibility" >
+ <a href="#content-both">Skip to Content</a>
+</div>
+
+<div id="container">
+ 
+<div id="header">
+
+<img src="/files/includes/images/header.png" style="float: none;margin: 0;" />
+
+
+</div>
+
+
+<ul id="secondary">
+   <li><a href="/web/20101225055648/http://www.theworldisnotflat.com/">Home</a></li>
+           <li><a href="/web/20101225055648/http://theworldisnotflat.com/user/login">Login</a></li>
+           <li><a href="contact">Contact Us</a></li>
+         </ul>
+
+<!-- Verbose greeting
+
+<div id="greetings">
+</div> 
+-->
+
+<div id="greetings">
+</div><!-- end greetings -->
+
+<div id="top-nav">
+	    <ul id="primary">
+          <li><a href="/web/20101225055648/http://theworldisnotflat.com/abouttwinf" title="">About This Site</a></li>
+          <li><a href="/web/20101225055648/http://theworldisnotflat.com/blog" title="">All Member Experiences</a></li>
+          <li><a href="/web/20101225055648/http://www.theworldisnotflat.com/#gonode" title="">All Our Dispatches</a></li>
+          <li><a href="/web/20101225055648/http://theworldisnotflat.com/maps" title="">Global Map</a></li>
+        </ul>
+  
+
+ <div id="search">
+ 
+
+
+</div>
+
+
+</div>
+
+<div id="content">	
+					<div class="sidebar" id="sidebar-right">
+  <div class="block block-block" id="block-block-31">
+  <h2>Interested?</h2>
+  <div class="content"><script type="text/javascript"><!--
+google_ad_client = "pub-4005123769456150";
+google_ad_width = 160;
+google_ad_height = 600;
+google_ad_format = "160x600_as";
+google_ad_type = "text_image";
+google_ad_channel = "";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "0000FF";
+google_color_text = "000000";
+google_color_url = "008000";
+//-->
+</script>
+<script type="text/javascript"
+  src="/web/20101225055648js_/http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><br class="clear" /></div>
+</div>
+<div class="block block-statistics" id="block-statistics-0">
+  <h2>Popular content</h2>
+  <div class="content"><div class="item-list"><h3>Today's:</h3><ul><li><a href="/web/20101225055648/http://theworldisnotflat.com/snowboarding">Indoor Snowboarding, Shanghai, China</a></li><li><a href="/web/20101225055648/http://theworldisnotflat.com/dispatch/2006/02/10/tech-battles-in-intl-mobile-blogging">Tech Battles in Intl Mobile Blogging</a></li><li><a href="/web/20101225055648/http://theworldisnotflat.com/queenstownriverboarding">Kawarau Riversurfing (Riverboarding) Queenstown New Zealand</a></li><li><a href="/web/20101225055648/http://theworldisnotflat.com/twitter">We&#039;re Using Twitter For Snippets of Our Trip</a></li></ul></div><br /><div class="item-list"><h3>All time:</h3><ul><li><a href="/web/20101225055648/http://theworldisnotflat.com/snowboarding">Indoor Snowboarding, Shanghai, China</a></li><li><a href="/web/20101225055648/http://theworldisnotflat.com/tattoo">So, I Got a Tattoo</a></li><li><a href="/web/20101225055648/http://theworldisnotflat.com/koi_tattoo">Why a Koi Tattoo?</a></li><li><a href="/web/20101225055648/http://theworldisnotflat.com/blog/akshay/doener-kebab-a-meal-on-the-go-in-germany">Döner kebab - A meal on the go in Germany.</a></li></ul></div><br /><div class="item-list"><h3>Last viewed:</h3><ul><li><a href="/web/20101225055648/http://theworldisnotflat.com/twitter">We&#039;re Using Twitter For Snippets of Our Trip</a></li><li><a href="/web/20101225055648/http://theworldisnotflat.com/blog/johnweddle/pigging-out-in-tasmania">Pigging out in Tasmania</a></li><li><a href="/web/20101225055648/http://theworldisnotflat.com/blog/mark/peking-duck-in-beijing">Peking duck in Beijing</a></li><li><a href="/web/20101225055648/http://theworldisnotflat.com/chongqing">A Night in Chongqing, China</a></li></ul></div></div>
+</div>
+<div class="block block-comment" id="block-comment-0">
+  <h2>Recent comments</h2>
+  <div class="content"><div class="item-list"><ul><li><a href="/web/20101225055648/http://theworldisnotflat.com/dispatch/2006/01/20/vodafone-x-air-in-wellington-new-zealand#comment-34085">Haha</a><br />2 years 26 weeks ago</li><li><a href="/web/20101225055648/http://theworldisnotflat.com/dispatch/2006/02/01/jet-boating-queenstown-new-zealand#comment-34081">I&#039;ve actually been on that</a><br />2 years 30 weeks ago</li><li><a href="/web/20101225055648/http://theworldisnotflat.com/queenstownriverboarding#comment-34080">Sounds like an awesome time.</a><br />2 years 30 weeks ago</li><li><a href="/web/20101225055648/http://theworldisnotflat.com/graffiti#comment-34043">Oh Mr. Open-Minded, aren&#039;t</a><br />2 years 36 weeks ago</li><li><a href="/web/20101225055648/http://theworldisnotflat.com/theend#comment-33961">thank you!</a><br />2 years 42 weeks ago</li><li><a href="/web/20101225055648/http://theworldisnotflat.com/blog/akshay/pune-maharashtra-india#comment-33960">Shaniwar Wada</a><br />2 years 46 weeks ago</li><li><a href="/web/20101225055648/http://theworldisnotflat.com/dispatch/2006/10/20/observing-young-americans-in-prague#comment-33958">Americans are often targeted</a><br />3 years 1 week ago</li><li><a href="/web/20101225055648/http://theworldisnotflat.com/hongkong#comment-33569">Greeting from Hong Kong</a><br />3 years 8 weeks ago</li><li><a href="/web/20101225055648/http://theworldisnotflat.com/hongkong_video#comment-33568">i love century egg</a><br />3 years 8 weeks ago</li><li><a href="/web/20101225055648/http://theworldisnotflat.com/panoramas#comment-33503">Panoramas</a><br />3 years 11 weeks ago</li></ul></div></div>
+</div>
+<div class="block block-block" id="block-block-25">
+  <h2>Other Travel Blogs</h2>
+  <div class="content"><p><a href="/web/20101225055648/http://www.ourlifewalkabout.com/">Jayme and Erinn - Our Life Walkabout</a></p> 
+<p><a href="/web/20101225055648/http://www.theradblog.com/">Jon Rawlinson</a></p> <p><a href="/web/20101225055648/http://blog.stonegrooves.net/">Josh Berman</a></p> <p><a href="/web/20101225055648/http://gadling.com/">Gadling</a></p> <p><a href="/web/20101225055648/http://www.geekytraveller.com/">Geeky Traveller</a></p> <p><a href="/web/20101225055648/http://yourinnervagabond.com/blog/">AJ &amp; Andrew</a></p> <p><a href="/web/20101225055648/http://constanttrek.typepad.com/constanttrek/">Constant Trek</a></p> <p><a href="/web/20101225055648/http://bigkatamari.blogspot.com/">Nadav and Anya</a></p> <p><a href="/web/20101225055648/http://www.oldworldwandering.com/">Old World Wandering</a></p><p><a href="/web/20101225055648/http://www.mofo-records.com/earthbound/">Maitland Waters</a>&nbsp;</p> 
+<p><a href="/web/20101225055648/http://www.ksrtw.com/">Kathy & Sharon</a>&nbsp;</p> 
+<p><a href="/web/20101225055648/http://www.vagabonding.com/">Vagabonding</a>&nbsp;</p> <br class="clear" /></div>
+</div>
+<div class="block block-block" id="block-block-24">
+  <h2>Insurance Sponsor</h2>
+  <div class="content"><a href="/web/20101225055648/http://www.worldnomads.com/index.aspx?affiliate=wrldflt"><img src="/web/20101225055648im_/http://www.worldnomads.com/files/advertisements/125x125_bridge.jpg" border=0></a> 
+We believe travel insurance is a necessity. <a href="/web/20101225055648/http://www.worldnomads.com/index.aspx?affiliate=wrldflt">World Nomads</a> has been kind enough to sponsor this for our trip.<br class="clear" /></div>
+</div>
+<div class="block block-user" id="block-user-1">
+  <h2>Navigation</h2>
+  <div class="content">
+<ul class="menu">
+<li class="leaf"><a href="/web/20101225055648/http://theworldisnotflat.com/keywords" title="">browse by keyword</a></li>
+<li class="leaf"><a href="/web/20101225055648/http://theworldisnotflat.com/taxonomy/vocabulary">view</a></li>
+<li class="leaf"><a href="/web/20101225055648/http://theworldisnotflat.com/tracker">recent posts</a></li>
+<li class="collapsed"><a href="/web/20101225055648/http://theworldisnotflat.com/aggregator">news aggregator</a></li>
+
+</ul>
+</div>
+</div>
+<div class="block block-block" id="block-block-23">
+  <h2>Creative Commons</h2>
+  <div class="content"><!--Creative Commons License--><a rel="license" href="/web/20101225055648/http://creativecommons.org/licenses/by-nc/2.5/"><img alt="Creative Commons License" border="0" src="/web/20101225055648im_/http://creativecommons.org/images/public/somerights20.png"/></a><br/>.<!--/Creative Commons License--><!-- <rdf:RDF xmlns="/web/20101225055648/http://web.resource.org/cc/" xmlns:dc="/web/20101225055648/http://purl.org/dc/elements/1.1/" xmlns:rdf="/web/20101225055648/http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+		<Work rdf:about="">
+			<license rdf:resource="/web/20101225055648/http://creativecommons.org/licenses/by-nc/2.5/" />
+		</Work>
+		<License rdf:about="/web/20101225055648/http://creativecommons.org/licenses/by-nc/2.5/"><permits rdf:resource="/web/20101225055648/http://web.resource.org/cc/Reproduction"/><permits rdf:resource="/web/20101225055648/http://web.resource.org/cc/Distribution"/><requires rdf:resource="/web/20101225055648/http://web.resource.org/cc/Notice"/><requires rdf:resource="/web/20101225055648/http://web.resource.org/cc/Attribution"/><prohibits rdf:resource="/web/20101225055648/http://web.resource.org/cc/CommercialUse"/><permits rdf:resource="/web/20101225055648/http://web.resource.org/cc/DerivativeWorks"/></License></rdf:RDF> --><br class="clear" /></div>
+</div>
+  </div>
+			
+		
+				<div class="main-content" id="content-right">
+<!-- commented out by RE Sept 14, 2005				<div class="breadcrumb"><a href="/node">Home</a></div>			
+-->
+
+									<h2 class="content-title">All Member Experiences</h2>
+												
+								
+								
+								
+				<!-- start main content -->
+				<div id="gonode">
+
+<div class="minimission">
+<h3 class="serif">You're viewing a Member's Travel Experience. 
+<a href="/web/20101225055648/http://feeds.feedburner.com/TwinfExperiences"  title="Experiences Feed"><img src="sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif" alt="RSS" /></a></h3>
+<p>Travel Experiences are organized by <b><a href="/web/20101225055648/http://www.theworldisnotflat.com/countries">Country Pages</a></b>.</p>
+</div>
+
+				</div>
+				<!-- begin content -->
+
+<div class="node">
+
+      <h2><a href="/web/20101225055648/http://theworldisnotflat.com/blog/bschwag/knidos-trip-from-marmaris" title="Knidos trip from Marmaris">Knidos trip from Marmaris</a></h2>
+
+    <div class="info">By: bschwag on January 3, 2007 - 2:27pm</div>
+
+  <div class="picture"><img src="/web/20101225055648im_/http://theworldisnotflat.com/system/files/pictures/picture-276.jpg" alt="bschwag&#039;s picture" title="bschwag&#039;s picture"  /></div>  <div class="content">
+
+  <p><img src="/web/20101225055648im_/http://www.flickr.com/photos/bschwag/284507319/" title="Knidos, Turkey" alt="Knidos, Turkey" align="top" /></p><p>&nbsp;This last October I was fortunate enough to spend some time in Turkey. If you find yourself on the Southwest coast and needing to escape the resort buzz in Marmaris, I highly suggest renting a car or scooter and drive out to the ancient ruins at Knidos. There you can find a place to grab a beer or food and if you time it right, watch the sunset over the Aegean. </p><br class="clear" />
+
+  </div>
+
+      <div class="terms">Filed Under: <a href="/web/20101225055648/http://theworldisnotflat.com/turkey" rel="tag" title="">Turkey</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/category/sight-seeing" rel="tag" title="Behold!">Sight Seeing</a></div>
+
+            <div class="links">
+
+<a href="/web/20101225055648/http://theworldisnotflat.com/blog/bschwag" title=" Read bschwag&#039;s latest travel experiences.">all bschwag&#039;s experiences</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/blog/bschwag/knidos-trip-from-marmaris#comment" title="Jump to the first comment of this posting.">1 comment</a></div>
+
+</div>
+
+
+
+<div class="node">
+
+      <h2><a href="/web/20101225055648/http://theworldisnotflat.com/blog/dave-h/barcelona-restaurant-el-cargol" title="Barcelona Restaurant - El Cargol">Barcelona Restaurant - El Cargol</a></h2>
+
+    <div class="info">By: Dave H on November 13, 2006 - 1:20pm</div>
+
+    <div class="content">
+
+  <p>Hey Lee and Sachi,</p><p>&nbsp;When I was in Barcelona my sister took me to a local family run restaurant that served a multiple servings, family style meal that was fantastic and unlike anything else I ate in Barcelona.&nbsp; It&#39;s called El Cargol and is somewhere in the outskirts of Barcelona (you need a car to get there).&nbsp; I&#39;ll update with more location info and possibly a local contact to go with when my sister gets back to me.&nbsp; I&#39;d highly recommend it if you have a car.</p><p>-Dave H&nbsp;</p><br class="clear" />
+
+  </div>
+
+      <div class="terms">Filed Under: <a href="/web/20101225055648/http://theworldisnotflat.com/spain" rel="tag" title="">Spain</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/category/food-drink-and-nightlife" rel="tag" title="For contributions regarding food, drink and nightlife.">Food, Drink and Nightlife</a></div>
+
+        <div class="links">
+
+<a href="/web/20101225055648/http://theworldisnotflat.com/blog/dave-h" title=" Read Dave H&#039;s latest travel experiences.">all Dave H&#039;s experiences</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/blog/dave-h/barcelona-restaurant-el-cargol#comment" title="Jump to the first comment of this posting.">1 comment</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/blog/dave-h/barcelona-restaurant-el-cargol#attachments" title="Read full article to view attachments.">1 attachment</a></div>
+
+</div>
+
+
+
+<div class="node">
+
+      <h2><a href="/web/20101225055648/http://theworldisnotflat.com/blog/carter/naxos-greece" title="Naxos, Greece">Naxos, Greece</a></h2>
+
+    <div class="info">By: Carter on November 5, 2006 - 10:49pm</div>
+
+  <div class="picture"><img src="/web/20101225055648im_/http://theworldisnotflat.com/system/files/pictures/picture-397.jpg" alt="Carter&#039;s picture" title="Carter&#039;s picture"  /></div>  <div class="content">
+
+  <p>Two friends and I spend a wonderful Easter weekend on the island of Naxos a few years ago.&nbsp; It is an enchanting island that is not overly touristy.&nbsp; Its a good place for some R&amp;R as well as hiking (if you&#39;re so inclined).&nbsp;&nbsp;</p><p>The hotel we stayed at was one of the best budget accommodations I&#39;ve ever experienced - <a href="/web/20101225055648/http://www.greekhotel.com/cyclades/naxos/chora/grotta/home.htm" title="Hotel Grotta" target="_blank">Hotel Grotta</a>, run by a brother and sister. &nbsp; The rooms are spacious and have TV, phone, nice bathrooms (although I don&#39;t know about wireless).&nbsp; Some have veranda views of the ocean.&nbsp; The highlight of the experience - hands down - is the traditional Greek breakfast.&nbsp; Buffet style yogurt, honey, cheese, bread, meats, honey cake, juice . . . its included in the room price, and you will be well fortified for your activities later in the day!&nbsp; We paid ~ US$45 a night for a triple room in 2001.&nbsp; And they gave us a bottle of wine!</p><p>Dimitrios was kind enough to loan my friends and I a well-worn copy of <i>Walking Tours of Naxos.</i>&nbsp; This slim guide has short to medium-length walks to see such sites as ancient Kouros and temples.&nbsp; You can see one of the most iconic ancient ruins as you sail into the harbor of Naxos town - the <a href="/web/20101225055648/http://www.google.com/maps?f=q&amp;hl=en&amp;q=naxos,+greece&amp;ie=UTF8&amp;z=18&amp;ll=37.109463,25.372576&amp;spn=0.002143,0.005059&amp;t=h&amp;om=1&amp;iwloc=addr" title="freestanding gate" target="_blank">freestanding gate</a> that was part of a temple to Apollo that was never finished. &nbsp; </p><p>We spent 3 days on Naxos and were able to visit some of the smaller towns (Ano Sagri, another town at the North end of the island - Apollonas, maybe?). &nbsp;&nbsp;</p><br class="clear" />
+
+  </div>
+
+      <div class="terms">Filed Under: <a href="/web/20101225055648/http://theworldisnotflat.com/greece" rel="tag" title="">Greece</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/category/where-to-stay" rel="tag" title="A roof over our heads.">Where to Stay</a></div>
+
+            <div class="links">
+
+<a href="/web/20101225055648/http://theworldisnotflat.com/blog/carter" title=" Read Carter&#039;s latest travel experiences.">all Carter&#039;s experiences</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/blog/carter/naxos-greece#comment" title="Jump to the first comment of this posting.">1 comment</a></div>
+
+</div>
+
+
+
+<div class="node">
+
+      <h2><a href="/web/20101225055648/http://theworldisnotflat.com/blog/joefish/edinburgh-music-and-more" title="Edinburgh- Music and More">Edinburgh- Music and More</a></h2>
+
+    <div class="info">By: JoeFish on October 25, 2006 - 7:18pm</div>
+
+    <div class="content">
+
+  <p>If you&#39;re experiencing local music on your trip- assuming you like tradtional or semi-traditional Scottish folk music, which I recommend- a must-go is Sandy Bells in Edinburgh. They have a seisun (session) mostly every day, great bartenders and great food nearby. It&#39;s at 25 Forrest Road, not far from the Royal Mile, but also near U of Edinburgh where there are a ton of great and mostly cheap places to eat. If there&#39;s a mad Australian with bushy red eyebrows behind the bar, his name is Toby, and tell him I said hi. &nbsp;</p><p> There&#39;s a great vegetarian place called Bann&#39;s around the corner on Blair Street (the address is 5 Hunter Square). Get the soup.&nbsp;</p><p>&nbsp;On the east end of town is the Broughton Street neighborhood, more or less the gay neighborhood, so it&#39;s naturally where all the good stores and restaurants are. Great place for a walk around and to get lunch.&nbsp;</p><p>&nbsp;The city has a WEALTH of guided tours through its abandoned&nbsp; underground (modern E-burgh is built directly on top of old E-burgh), Mercat is among the best, all their people are historians, supposedly (<a href="/web/20101225055648/http://www.mercattours.com/home.asp" title="http://www.mercattours.com/home.asp">http://www.mercattours.com/home.asp</a>). I go on two or three every time I am there, but beware the scare-factor only tours. Mercat is the real deal. There is a museum through which you can enter Mary King&#39;s Close, which is cool, but I would be tempted to check out the Mercat tour since they give one now, also. There are plenty of aboveground tours as well, and some of them are so good, you see locals on them.&nbsp;</p><p>&nbsp;It has a strange transition from old city to new, like much of Scotland, but Edinburgh is well worth the trip. If you&#39;re traveling overland and you&#39;re into history, York and the Lake District are well worth a half-day each. It breaks up the trip nicely.&nbsp; </p><br class="clear" />
+
+  </div>
+
+      <div class="terms">Filed Under: <a href="/web/20101225055648/http://theworldisnotflat.com/scotland" rel="tag" title="">Scotland</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/category/food-drink-and-nightlife" rel="tag" title="For contributions regarding food, drink and nightlife.">Food, Drink and Nightlife</a></div>
+
+        <div class="links">
+
+<a href="/web/20101225055648/http://theworldisnotflat.com/blog/joefish" title=" Read JoeFish&#039;s latest travel experiences.">all JoeFish&#039;s experiences</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/blog/joefish/edinburgh-music-and-more#comment" title="Jump to the first comment of this posting.">2 comments</a></div>
+
+</div>
+
+
+
+<div class="node">
+
+      <h2><a href="/web/20101225055648/http://theworldisnotflat.com/blog/bluefrontier/for-the-real-prague-look-south" title="For the real Prague ... look south">For the real Prague ... look south</a></h2>
+
+    <div class="info">By: bluefrontier on October 19, 2006 - 12:25am</div>
+
+    <div class="content">
+
+    <p><span style="font-size: 10pt; font-family: Verdana; color: #44464f">Hi TwinFers, glad to hear you&#39;re making your way to the <st1:country-region w:st="on">Czech  Republic</st1:country-region> ... after all, what vagabonding freewheeler&nbsp;could flit past a place called <st1:state w:st="on"><st1:place w:st="on">Bohemia</st1:place></st1:state>? Prepare for the onslaught of that lard-rich hearty fare so popular in Central Europe (hearty? probably named such because of the main internal organ it&#39;ll attack); hire a bike and check out the streets and forests above the town centre (where the slick touro veneer hasn&#39;t </span><span style="font-size: 10pt; font-family: Verdana; color: #44464f">yet </span><span style="font-size: 10pt; font-family: Verdana; color: #44464f">been applied); enjoy $1 mugs of pilsner, if you pick your pub right; get sold tickets to an&nbsp;orchestral performance by a dude dressed as Mozart; gasp at the Scooby Doo-style Jewish cemetery, replete with bodies stacked nine-high and those eerie sinking tombstones; grab a photography exhibition (I think Jan Saudek and Yann Arthus Bertrand might still be showing); and test the limits of your soul -- and stomach lining -- with an evening&#39;s absinthe-fuelled revellery at the Marquis de Sade bar (no, calm yourselves, it ain&#39;t an S&amp;M club).<o:p></o:p></span></p>  <p><span style="font-size: 10pt; font-family: Verdana; color: #44464f">HOWEVER! If you wanna see the real Czech idyll -- perhaps Prague as it was ten years ago -- get on down to Cesky Krumlov, a fun three-hour bus ride to the south. I&#39;ll leave the description to your imagination ... would hate to spoil a happy ending.<o:p></o:p></span></p>  <p><span style="font-size: 10pt; font-family: Verdana; color: #44464f">:9)<o:p></o:p></span></p>  <br class="clear" />
+
+  </div>
+
+      <div class="terms">Filed Under: <a href="/web/20101225055648/http://theworldisnotflat.com/czech-republic" rel="tag" title="">Czech Republic</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/category/general-catch-all" rel="tag" title="Tell us whatever you want.">General Catch-all</a></div>
+
+        <div class="links">
+
+<a href="/web/20101225055648/http://theworldisnotflat.com/blog/bluefrontier" title=" Read bluefrontier&#039;s latest travel experiences.">all bluefrontier&#039;s experiences</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/blog/bluefrontier/for-the-real-prague-look-south#comment" title="Jump to the first comment of this posting.">1 comment</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/blog/bluefrontier/for-the-real-prague-look-south#attachments" title="Read full article to view attachments.">1 attachment</a></div>
+
+</div>
+
+
+
+<div class="node">
+
+      <h2><a href="/web/20101225055648/http://theworldisnotflat.com/blog/cwolz/netherlands-tips-and-leipzig" title="Netherlands tips - and Leipzig!">Netherlands tips - and Leipzig!</a></h2>
+
+    <div class="info">By: cwolz on October 10, 2006 - 11:13am</div>
+
+    <div class="content">
+
+  <p>Lee and Sachi&nbsp; - </p><p>Have not checked your site for a while- and enoyed seeing your adventures from Darjeeling to Lofoten Islands and more. Thanks for sharing! Some places I have enjoyed in my travels back in the day.&nbsp;</p><p>We get to Holland very year or so as my wife Eugenie is Dutch, and so here are a few of our favorites -</p><p>-Groningen, relaxed and bohemian university town in the north of the country.&nbsp; Let me know if you&#39;d like the name of a friend there who&#39;d enjoy being a guide. (i am at <a href="mailto:wolz@forumone.com">wolz@forumone.com</a>)&nbsp;</p><p>-Friesland - province in the NW - small fishing villages amidst lakes and farms - wonderful place to rent a sailboat and explore.&nbsp; Boat camping very easy there. Try town of Sneek.</p><p>-Biking! anywhere and everywhere! you can rent bikes at most train stations and return them to another station - so - for example - take train to Hoorn, have coffee and enjoye the stunning small town, then ride to Enkhuizen, explore the outdoor Zuiderzee Museum, and drop bikes at station and return. it is such a pleasure to bike out in the countryside. I&#39;d recommend a train/bike trip to the Kruller-Muller Museum - great countryside, great art. Will take a whole day to/fro - - <a href="/web/20101225055648/http://www.kmm.nl/index_flash.html" title="http://www.kmm.nl/index_flash.html">http://www.kmm.nl/index_flash.html</a> &nbsp; &nbsp; </p><p>-Amsterdam? I&#39;d visit - but not spend a lot of time there - I find it (especially tourist areas) too grungy, depressing. Boat ride tour is a worthwhile way to get a view of town. Also fun - if still open - Rembrandt exhibit at the &quot;Buers&quot;, old stock exchange - wonderful pictures (reproductions) and stories.</p><p>- Medium sized market towns - Delft, Gouda, have sights aplenty, are quiet, pleasant for a day trip. If in Goude -&nbsp; visit the &quot;Wag&quot; on the main square which is for tourist info and museum about Goude - worth visiting. Ask for Mr. or Mrs. Ballering - my in-laws - who work there two days aweek... email if if going!</p><p>- Rotterdam - very different feeling town - modern, stylish architecture and a thriving port - got a lot of life to it.</p><p>&nbsp;</p><p>Speaking of costs - you will find the Netherlands a little pricey - probably 10% more than germany, and 20% more than E. germany. I&#39;d recommend Leipzig in the east, if you have time - glorious historic city starting to recover.... and relatively economical. Let me know if going there&nbsp; - have some american friends who are residents.</p><p>&nbsp;</p><p>Best</p><p>&nbsp;</p><p>Chris Wolz</p><p>&nbsp;</p><p>&nbsp;</p><br class="clear" />
+
+  </div>
+
+      <div class="terms">Filed Under: <a href="/web/20101225055648/http://theworldisnotflat.com/netherlands-the" rel="tag" title="">Netherlands, The</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/category/general-catch-all" rel="tag" title="Tell us whatever you want.">General Catch-all</a></div>
+
+        <div class="links">
+
+<a href="/web/20101225055648/http://theworldisnotflat.com/blog/cwolz" title=" Read cwolz&#039;s latest travel experiences.">all cwolz&#039;s experiences</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/blog/cwolz/netherlands-tips-and-leipzig#comment" title="Jump to the first comment of this posting.">3 comments</a></div>
+
+</div>
+
+
+
+<div class="node">
+
+      <h2><a href="/web/20101225055648/http://theworldisnotflat.com/blog/supamanu/lofoten" title="Lofoten">Lofoten</a></h2>
+
+    <div class="info">By: supamanu on October 6, 2006 - 1:02am</div>
+
+    <div class="content">
+
+  <p>Well, Norway doesn&#39;t show up in the &#39;Select a country&#39; drop-down...</p><p>&nbsp;</p><p>Anyway, Lee, about 5-6 years ago I did a sailing trip arounf Lofoten, one of the most beautiful experiences of my life. Sailing in themiddle of the night with the midnight sun lighting our way. We sailed straight from Tromso to Vaeroy, amojst the very tip, and then made our way back slowly through the archipelago. Beautiful and desolate. Hardly encoutered a soul. If you get a chance to stop at Svolvaer, there&#39;s is a little bar just as you enter the harbour that serves FREE fiskesoup at ungodly hours in the summer (no one really sleeps anyway), subdued ambiance, smoke, beer, the lost world. If you plan to stop by Stavanger do let me know I have a couple of really good friends you can hang out with.</p><p>&nbsp;</p><p>-Manu&nbsp;</p><br class="clear" />
+
+  </div>
+
+      <div class="terms">Filed Under: <a href="/web/20101225055648/http://theworldisnotflat.com/general" rel="tag" title="">General</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/category/sight-seeing" rel="tag" title="Behold!">Sight Seeing</a></div>
+
+        <div class="links">
+
+<a href="/web/20101225055648/http://theworldisnotflat.com/blog/supamanu" title=" Read supamanu&#039;s latest travel experiences.">all supamanu&#039;s experiences</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/user/login?destination=node/1059%2523comment_form"></a> <a href="/web/20101225055648/http://theworldisnotflat.com/user/register?destination=node/1059%2523comment_form"></a></div>
+
+</div>
+
+
+
+<div class="node">
+
+      <h2><a href="/web/20101225055648/http://theworldisnotflat.com/blog/steve/traveling-china" title="Traveling China">Traveling China</a></h2>
+
+    <div class="info">By: Steve on August 22, 2006 - 9:26am</div>
+
+    <div class="content">
+
+  <p class="MsoNormal"><span class="Apple-style-span" style="font-family: Arial; font-size: 16px">Lee &amp; Sachi,</span></p><p class="MsoNormal"><span class="Apple-style-span" style="font-family: Arial; font-size: 16px">It is great to read about your travels. My wife and I spent the month of July traveling China. We spent three weeks teaching English to Chinese English teachers and one week of just traveling China. Your blog inspired me to create one of my own to document our travels through China.&nbsp;</span></p><p class="MsoNormal"><span class="Apple-style-span" style="font-family: Arial; font-size: 16px">http://web.mac.com/stevenkent/iWeb/Site/China/China.html</span><o:p></o:p></p><p class="MsoNormal"><span class="Apple-style-span" style="font-family: Arial; font-size: 16px">We spent two weeks teaching in Wenling (5 hours south of Shanghai on the coast) and one week in Linhai. Ingrid and I had an amazing time and met many wonderful people who even invited us into their home for an authentic &quot;home cooked&quot; Chinese dinner. It took us quite a while to get use to the food, especially since we use to be vegetarians (good luck being a vegetarian in China). We also got to experience typhoon Bilis and narrowly missing two other typhoons. When you get to Shanghai I would suggest that you make a special effort to ride the MagLev (super train), which travels at 430 km/hour.&nbsp;I could ramble on for hours about our travels and experiences but I wont because you can read our blog if you are interested or have time to kill. I hope your experiences are as wonderful as ours were in China.</span><o:p></o:p></p><br class="clear" />
+
+  </div>
+
+      <div class="terms">Filed Under: <a href="/web/20101225055648/http://theworldisnotflat.com/china" rel="tag" title="">China</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/category/general-catch-all" rel="tag" title="Tell us whatever you want.">General Catch-all</a></div>
+
+        <div class="links">
+
+<a href="/web/20101225055648/http://theworldisnotflat.com/blog/steve-0" title=" Read Steve&#039;s latest travel experiences.">all Steve&#039;s experiences</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/blog/steve/traveling-china#comment" title="Jump to the first comment of this posting.">5 comments</a></div>
+
+</div>
+
+
+
+<div class="node">
+
+      <h2><a href="/web/20101225055648/http://theworldisnotflat.com/blog/nila-tanzil/exploring-yogyakarta-indonesia-in-3-days" title="Exploring Yogyakarta (Indonesia) in 3 days">Exploring Yogyakarta (Indonesia) in 3 days</a></h2>
+
+    <div class="info">By: Nila Tanzil on August 16, 2006 - 1:57am</div>
+
+  <div class="picture"><img src="/web/20101225055648im_/http://theworldisnotflat.com/system/files/pictures/picture-327.jpg" alt="Nila Tanzil&#039;s picture" title="Nila Tanzil&#039;s picture"  /></div>  <div class="content">
+
+  I managed to go to Yogyakarta with my classmate from The Netherlands, Danny. He's never been to Indonesia before and would love to see Candi Borobudur :D. So, we decided to go to Yogya for three days. <br><br>
+
+<em><strong>First Day</strong></em> <br><br>
+
+As soon as we arrived, we strolled down to Malioboro Street, where all the souvenirs and batik shops were located. We did some shopping there. Hehehe.. Danny was amazed by the cheap price of all the stuffs that were sold in that street. Malioboro Street is famous for that. It offers different kinds of stuffs for extremely cheap price! Oyeah, one has to bargain to get a good deal. ;) So, your bargaining skills are very useful here! I bought everything for not more than Rp 10thou. It wasn't even 1 euro, yet!<br><br>
+
+After the shopping, I decided to take him to Gadjah Wong Restaurant for dinner coz I read a lot of good things about it from some magazines. Apparently, it was a good decision as the place itself is very nice with an open air garden and different parts of rooms with different kind of live music – traditional Javanese music, jazz and country music. We chose to sit in a small garden, outdoor, where we could be entertain by the singers and gamelan players who were wearing traditional costumes.<br><br>
+
+When exploring the place, I was stunned to see the dungeon-like entrance to the underground room in which decorated with Wisnu statues and other ancient-like ornaments. Very artistic, I love it.<br><br>
+
+The food was delicious. Apart from Indonesian food, they also have Indian and some steaks. I ordered Indian vegetable curry, while Danny ordered Nasi Bebek, the restaurant’s specialty, .. and we were satisfied.<br><br>
+
+After a nice dinner, we went back to Malioboro Street, Danny bought more stuffs for his sisters, nephew, dad and friends. The art of bargaining started to kick back now... hahaha :D.<br><br>
+
+People in Yogyakarta are nice and friendly. When you walked along the Malioboro Street, you would get offer from the “becak<br class="clear" />
+
+  </div>
+
+      <div class="terms">Filed Under: <a href="/web/20101225055648/http://theworldisnotflat.com/indonesia" rel="tag" title="">Indonesia</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/category/general-catch-all" rel="tag" title="Tell us whatever you want.">General Catch-all</a></div>
+
+            <div class="links">
+
+<a href="/web/20101225055648/http://theworldisnotflat.com/blog/nila-tanzil" title=" Read Nila Tanzil&#039;s latest travel experiences.">all Nila Tanzil&#039;s experiences</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/blog/nila-tanzil/exploring-yogyakarta-indonesia-in-3-days#comment" title="Jump to the first comment of this posting.">2 comments</a></div>
+
+</div>
+
+
+
+<div class="node">
+
+      <h2><a href="/web/20101225055648/http://theworldisnotflat.com/blog/beth-alexander/things-to-see-and-do-in-egypt" title="Things to See and Do in Egypt">Things to See and Do in Egypt</a></h2>
+
+    <div class="info">By: Beth Alexander on August 7, 2006 - 1:50pm</div>
+
+  <div class="picture"><img src="/web/20101225055648im_/http://theworldisnotflat.com/system/files/pictures/picture-322.jpg" alt="Beth Alexander&#039;s picture" title="Beth Alexander&#039;s picture"  /></div>  <div class="content">
+
+  <p>I lived in <b>Cairo</b>, Egypt for a period of time in the early 90&#39;s.&nbsp; While I&#39;m sure much has changed since then&nbsp; I&#39;d like to recommend the following for your&nbsp; must see/do list:</p><p>&nbsp;For an amazing shopping experience the immense rabbit-warren of shops and stalls in the mostly outdoor shopping district the <a href="/web/20101225055648/http://www.egybazar.com/khistory.html"><b>Khan al-Khalili</b></a> (a.k.a. the Khan) can&#39;t be missed.&nbsp; Originally built around 1382.&nbsp; Take a map of the Khan with you...it&#39;s easy to get lost in there. You can also hire a guide but he will most likely only take you to the stores of his relatives, still if you don&#39;t have a lot of time to spend it&#39;s an option to consider.&nbsp; Bargaining is an artform in Egypt so practice your skills.&nbsp; If it&#39;s something you REALLY want try to act uninterested and don&#39;t be afraid to walk away.&nbsp; You can get some excellent perfumes custom made (they will copy designer scents as well).&nbsp; Frequently the perfumes come in pure oil form and will last forever.&nbsp; You can also get some excellent buys on gold bangles and bobbles!&nbsp; For big ticket items be prepared to spend a considerable amount of time negotiating (often involving sitting down to tea) before closing the sale. &nbsp; </p><p>&nbsp;While you&#39;re in the vicinity you might want to take a taxi or bus over to the <a href="/web/20101225055648/http://www.egyptmyway.com/articles/picturescityofdead.html"><b>City of the Dead</b></a>, the City of the Dead houses the funerary complexes of the Mamluk sultans and their amirs. There are some amazing Khanqah&#39;s there.&nbsp; The khanqahs supported large numbers of inhabitants who developed complex communities.&nbsp; Some of the more notable:&nbsp; Kanqah of Barquq, Khanqah of Sultan Barsbey and the Funerary Comples of Qaytbey. &nbsp;</p><p><b><a href="/web/20101225055648/http://www.egyptologyonline.com/coptic_cairo.htm">Old Cairo</a> </b>is also worth exploring.&nbsp; The easiest way to get there is to take the Metro south (Helwan direction), get off at the Mari Girgis stop.&nbsp; Plan at least a 1/2 days worth of exploring here to truly appreciate all the amazing architecture and history (the Coptic Museum is there).</p><p><a href="/web/20101225055648/http://www.egyptianmuseum.gov.eg/"><b>The Egyptian Antiquities Museum</b></a> is a must while in Cairo.&nbsp; Not something you can do in just one day.&nbsp; This is a vast collection of Egyptian antiquities.</p><p>Of course you have to stop at the <b>pyramids </b>while you are there.&nbsp; We enjoyed renting horses rather than camels whenever we went to <b>Giza</b>, the horses seem to attract less tourists, and you can find a personal guide for a small party of 2 or more.&nbsp; </p><p>If you want to stay out of the central hub-bub of the city center, <b>Maadi </b>is a good option for accomodations. Maadi is located in the southern suburbs of Cairo, there are some gorgeous villas there left over from the English settlements. The hotels can sometimes be more affordable in Maadi and New Maadi.&nbsp; <span style="font-family: georgia; color: #330000"></span>Taxis (find one driver you like and stick with him -- negotiate day rates) and the Metro provide easy access to all other areas you might wish to visit.&nbsp;</p><p>&nbsp;Other places to visit in Egypt: Alexandria, Memphis &amp; Sakara, Luxor, Aswan and Abu Simbel. For a real adventure consider renting a Falouka and sailing up the Nile, not recommended in the hottest months, bring lots of mosquito protection.</p><p>The <b><a href="/web/20101225055648/http://www.siwaoasis.com/siwa_culture.html">Siwa Oasis</a> </b>is a must see destination.&nbsp; It is one of Egypt&#39;s most isolated settlements. While it has become more of a tourist draw in recent years, it&#39;s still far enough off the beaten path that you&#39;re sure to have a wonderful adventure and have a chance to get a closer look at this unique Siwan Berber culture. Don&#39;t miss the fine crafts produced by the locals.&nbsp; While you&#39;re there consider a <b><a href="/web/20101225055648/http://www.siwaoasis.com/siwa_safaris.html">Siwa Safari.</a></b></p><p>There&#39;s so much more to do and see, but those are some of the highlights. <br /></p>&nbsp;<p>&nbsp;</p><br class="clear" />
+
+  </div>
+
+      <div class="terms">Filed Under: <a href="/web/20101225055648/http://theworldisnotflat.com/egypt" rel="tag" title="">Egypt</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/category/sight-seeing" rel="tag" title="Behold!">Sight Seeing</a></div>
+
+            <div class="links">
+
+<a href="/web/20101225055648/http://theworldisnotflat.com/blog/beth-alexander" title=" Read Beth Alexander&#039;s latest travel experiences.">all Beth Alexander&#039;s experiences</a> | <a href="/web/20101225055648/http://theworldisnotflat.com/user/login?destination=node/1013%2523comment_form"></a> <a href="/web/20101225055648/http://theworldisnotflat.com/user/register?destination=node/1013%2523comment_form"></a></div>
+
+</div>
+
+<div id="pager"><span class="pager-list"><strong class="pager-current">1</strong><a href="/web/20101225055648/http://theworldisnotflat.com/blog/johnweddle/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif?page=1" class="pager-next active" title="Go to page 2">2</a><a href="/web/20101225055648/http://theworldisnotflat.com/blog/johnweddle/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif?page=2" class="pager-next active" title="Go to page 3">3</a><a href="/web/20101225055648/http://theworldisnotflat.com/blog/johnweddle/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif?page=3" class="pager-next active" title="Go to page 4">4</a><a href="/web/20101225055648/http://theworldisnotflat.com/blog/johnweddle/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif?page=4" class="pager-next active" title="Go to page 5">5</a><a href="/web/20101225055648/http://theworldisnotflat.com/blog/johnweddle/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif?page=5" class="pager-next active" title="Go to page 6">6</a><a href="/web/20101225055648/http://theworldisnotflat.com/blog/johnweddle/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif?page=6" class="pager-next active" title="Go to page 7">7</a><a href="/web/20101225055648/http://theworldisnotflat.com/blog/johnweddle/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif?page=7" class="pager-next active" title="Go to page 8">8</a><a href="/web/20101225055648/http://theworldisnotflat.com/blog/johnweddle/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif?page=8" class="pager-next active" title="Go to page 9">9</a><span class="pager-ellipsis">…</span></span><a href="/web/20101225055648/http://theworldisnotflat.com/blog/johnweddle/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif?page=1" class="pager-next active" title="Go to next page">next ›</a><a href="/web/20101225055648/http://theworldisnotflat.com/blog/johnweddle/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rss.gif?page=12" class="pager-last active" title="Go to last page">last »</a></div><a href="/web/20101225055648/http://theworldisnotflat.com/blog/feed" class="feed-icon"><img src="/web/20101225055648im_/http://theworldisnotflat.com/misc/feed.png" alt="Syndicate content" title="Syndicate content" width="16" height="16" /></a><!-- end content -->				<!-- end main content -->
+				</div><!-- mainContent -->	
+<div id="footer">
+      <p class="floatright">Site design by <a href="/web/20101225055648/http://raincitystudios.com/"><img src="/web/20101225055648im_/http://theworldisnotflat.com/sites/theworldisnotflat.com/files/theme_editor/TWINF_RCS/rcsmicro.gif" alt="Raincity Studios" /></a>
+</p>
+        <ul>
+          <li><a href="/web/20101225055648/http://theworldisnotflat.com/contact" title="">Contact Us</a></li>
+          <li><a href="/web/20101225055648/http://www.theworldisnotflat.com/" title="">Home</a></li>
+          <li><a href="/web/20101225055648/http://theworldisnotflat.com/user" title="">My Account/Login</a></li>
+          <li><a href="/web/20101225055648/http://theworldisnotflat.com/terms" title="">Terms/Guidelines</a></li>
+        <li><script src="/web/20101225055648js_/http://mapstats.blogflux.com/button.js.php?id=3636" language="JavaScript" type="text/javascript"></script>
+<noscript><a href="/web/20101225055648/http://mapstats.blogflux.com/3636.html"><img src="/web/20101225055648im_/http://mapstats.blogflux.com/button.php?id=3636" alt="Blog Flux MapStats: Stats and Counter for The World Is Not Flat" border="0" /></a></noscript></li>
+    </ul>
+  </div><!-- footer -->	
+</div><!-- content -->
+ new
+ </div><!-- Container -->
+
+  </body>
+</html>
+
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 5:56:48 Dec 25, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:33:31 Mar 1, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->

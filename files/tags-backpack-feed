@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://theworldisnotflat.com" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>The World Is Not Flat (TwinF) - backpack</title>
+ <link>http://theworldisnotflat.com/taxonomy/term/177/0</link>
+ <description></description>
+ <language>en-US</language>
+<item>
+ <title>Lesser Known Backpacking Travel Tips</title>
+ <link>http://theworldisnotflat.com/travel-tips</link>
+ <description></description>
+ <comments>http://theworldisnotflat.com/travel-tips#comment</comments>
+ <category domain="http://theworldisnotflat.com/general">General</category>
+ <category domain="http://theworldisnotflat.com/tags/advice">advice</category>
+ <category domain="http://theworldisnotflat.com/tags/backpack">backpack</category>
+ <category domain="http://theworldisnotflat.com/tags/bestof">bestof</category>
+ <category domain="http://theworldisnotflat.com/tags/dailylife">dailylife</category>
+ <category domain="http://theworldisnotflat.com/tags/gadgetry">gadgetry</category>
+ <category domain="http://theworldisnotflat.com/tags/geek">geek</category>
+ <category domain="http://theworldisnotflat.com/tags/lodging">lodging</category>
+ <category domain="http://theworldisnotflat.com/tags/traveltips">traveltips</category>
+ <pubDate>Wed, 03 Jan 2007 13:38:11 -0800</pubDate>
+ <dc:creator>leelefever</dc:creator>
+ <guid isPermaLink="false">1156 at http://theworldisnotflat.com</guid>
+</item>
+</channel>
+</rss>

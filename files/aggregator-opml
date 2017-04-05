@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.1">
+<head>
+<title>The World Is Not Flat (TwinF)</title>
+<dateModified>Sat, 25 Dec 2010 07:49:29 +0000</dateModified>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60446936-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head><body>
+<outline text="Now on LeeLeFever.com" xmlUrl="http://feeds.feedburner.com/LeeLefeverDotCom" />
+<outline text="Vietnam Bookmarks" xmlUrl="http://feeds.delicious.com/rss/TWINF/twinf_vietnam" />
+</body>
+</opml>

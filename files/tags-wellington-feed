@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.theworldisnotflat.com" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>The World Is Not Flat (TwinF) - wellington</title>
+ <link>http://www.theworldisnotflat.com/taxonomy/term/323/0</link>
+ <description></description>
+ <language>en-US</language>
+<item>
+ <title>To Our Kiwi Friends</title>
+ <link>http://www.theworldisnotflat.com/dispatch/2006/02/08/to-our-kiwi-friends</link>
+ <description></description>
+ <comments>http://www.theworldisnotflat.com/dispatch/2006/02/08/to-our-kiwi-friends#comment</comments>
+ <category domain="http://www.theworldisnotflat.com/general">General</category>
+ <category domain="http://www.theworldisnotflat.com/tags/auckland">auckland</category>
+ <category domain="http://www.theworldisnotflat.com/tags/christchurch">christchurch</category>
+ <category domain="http://www.theworldisnotflat.com/tags/hawkesbay">hawkesbay</category>
+ <category domain="http://www.theworldisnotflat.com/tags/newfriends">newfriends</category>
+ <category domain="http://www.theworldisnotflat.com/tags/newzealand">newzealand</category>
+ <category domain="http://www.theworldisnotflat.com/tags/wellington">wellington</category>
+ <category domain="http://www.theworldisnotflat.com/tags/wine">wine</category>
+ <pubDate>Wed, 08 Feb 2006 14:44:45 -0800</pubDate>
+ <dc:creator>leelefever</dc:creator>
+ <guid isPermaLink="false">806 at http://www.theworldisnotflat.com</guid>
+</item>
+</channel>
+</rss>

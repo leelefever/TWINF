@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.theworldisnotflat.com" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>The World Is Not Flat (TwinF) - venice</title>
+ <link>http://www.theworldisnotflat.com/taxonomy/term/546/0</link>
+ <description></description>
+ <language>en-US</language>
+<item>
+ <title>Venice in Photos</title>
+ <link>http://www.theworldisnotflat.com/venice</link>
+ <description></description>
+ <comments>http://www.theworldisnotflat.com/venice#comment</comments>
+ <category domain="http://www.theworldisnotflat.com/general">General</category>
+ <category domain="http://www.theworldisnotflat.com/tags/city">city</category>
+ <category domain="http://www.theworldisnotflat.com/tags/italy">italy</category>
+ <category domain="http://www.theworldisnotflat.com/tags/photos">photos</category>
+ <category domain="http://www.theworldisnotflat.com/tags/venice">venice</category>
+ <pubDate>Thu, 26 Oct 2006 06:34:37 -0700</pubDate>
+ <dc:creator>leelefever</dc:creator>
+ <guid isPermaLink="false">1079 at http://www.theworldisnotflat.com</guid>
+</item>
+</channel>
+</rss>
